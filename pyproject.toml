@@ -26,6 +26,7 @@ dependencies = [
 ]
 
 [tool.setuptools]
+packages = ["docparser"]
 py-modules = ["doc2json"]
 
 [project.scripts]
