@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doc2json"
+version = "1.0"
+authors = [
+    {name = "Thodoris Sotiropoulos", email = "theosotr@windowslive.com"},
+]
+description = "Converting API documentation into JSON documents"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: GPL v3.0 License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "beautifulsoup4",
+]
+
+[tool.setuptools]
+py-modules = ["doc2json"]
+
+[project.scripts]
+doc2json = "doc2json:main"
