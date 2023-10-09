@@ -1,0 +1,107 @@
+{
+  "name": "scala.collection.LongStepper.LongStepperSpliterator",
+  "type_parameters": [],
+  "implements": [
+    "java.util.Spliterator.OfLong"
+  ],
+  "inherits": [
+    "java.util.Spliterator.OfLong"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "characteristics",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "estimateSize",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Long",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "forEachRemaining",
+      "parameters": [
+        "java.util.function.Consumer[_ >: java.lang.Long]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "forEachRemaining",
+      "parameters": [
+        "java.util.function.LongConsumer"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tryAdvance",
+      "parameters": [
+        "java.util.function.Consumer[_ >: java.lang.Long]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tryAdvance",
+      "parameters": [
+        "java.util.function.LongConsumer"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "trySplit",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.util.Spliterator.OfLong",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "LongStepperSpliterator",
+      "parameters": [
+        "scala.collection.LongStepper"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "scala.collection.immutable.AbstractMap",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.AbstractMap[K, V]",
+    "scala.collection.immutable.Map[K, V]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractMap[K, V]",
+    "scala.collection.immutable.Map[K, V]"
+  ],
+  "class_type": 2,
+  "methods": [],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

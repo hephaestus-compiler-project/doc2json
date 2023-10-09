@@ -1,0 +1,53 @@
+{
+  "name": "scala.collection.generic.DefaultSerializationProxy",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.Serializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "readResolve",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Any",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "DefaultSerializationProxy",
+      "parameters": [
+        "scala.collection.Factory[A, scala.Any]",
+        "scala.collection.Iterable[A]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "builder",
+      "type": "scala.collection.mutable.Builder[A, scala.Any]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

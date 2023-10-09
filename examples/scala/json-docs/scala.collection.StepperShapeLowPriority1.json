@@ -1,0 +1,16 @@
+{
+  "name": "scala.collection.StepperShapeLowPriority1",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.StepperShapeLowPriority2"
+  ],
+  "inherits": [
+    "scala.collection.StepperShapeLowPriority2"
+  ],
+  "class_type": 1,
+  "methods": [],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,209 @@
+{
+  "name": "scala.collection.mutable.Queue",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.mutable.ArrayDeque[A]",
+    "scala.collection.mutable.IndexedSeqOps[A, scala.collection.mutable.Queue, scala.collection.mutable.Queue[A]]",
+    "scala.collection.StrictOptimizedSeqOps[A, scala.collection.mutable.Queue, scala.collection.mutable.Queue[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.mutable.Queue]",
+    "scala.collection.mutable.ArrayDequeOps[A, scala.collection.mutable.Queue, scala.collection.mutable.Queue[A]]",
+    "scala.collection.mutable.Cloneable[scala.collection.mutable.Queue[A]]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.ArrayDeque[A]",
+    "scala.collection.mutable.IndexedSeqOps[A, scala.collection.mutable.Queue, scala.collection.mutable.Queue[A]]",
+    "scala.collection.StrictOptimizedSeqOps[A, scala.collection.mutable.Queue, scala.collection.mutable.Queue[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.mutable.Queue]",
+    "scala.collection.mutable.ArrayDequeOps[A, scala.collection.mutable.Queue, scala.collection.mutable.Queue[A]]",
+    "scala.collection.mutable.Cloneable[scala.collection.mutable.Queue[A]]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "dequeue",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "A",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dequeueAll",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Seq[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dequeueFirst",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dequeueWhile",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Seq[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "enqueue",
+      "parameters": [
+        "A",
+        "A",
+        "A*"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Queue.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "enqueue",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Queue.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "enqueueAll",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Queue.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "klone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Queue[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "ofArray",
+      "parameters": [
+        "scala.Array[scala.AnyRef]",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Queue[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "Queue",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "Queue",
+      "parameters": [
+        "scala.Array[scala.AnyRef]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "protected"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Queue[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "front",
+      "type": "A",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.mutable.Queue]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,305 @@
+{
+  "name": "scala.collection.mutable.Buffer",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.mutable.Seq[A]",
+    "scala.collection.mutable.SeqOps[A, scala.collection.mutable.Buffer, scala.collection.mutable.Buffer[A]]",
+    "scala.collection.mutable.Growable[A]",
+    "scala.collection.mutable.Shrinkable[A]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.mutable.Buffer]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.Seq[A]",
+    "scala.collection.mutable.SeqOps[A, scala.collection.mutable.Buffer, scala.collection.mutable.Buffer[A]]",
+    "scala.collection.mutable.Growable[A]",
+    "scala.collection.mutable.Shrinkable[A]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.mutable.Buffer]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insertAll",
+      "parameters": [
+        "scala.Int",
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "patchInPlace",
+      "parameters": [
+        "scala.Int",
+        "scala.collection.IterableOnce[A]",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "prepend",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "remove",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "remove",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "A",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "++=:",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "+=:",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "appendAll",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropInPlace",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropRightInPlace",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropWhileInPlace",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "padToInPlace",
+      "parameters": [
+        "scala.Int",
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "prependAll",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sliceInPlace",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "subtractOne",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "takeInPlace",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "takeRightInPlace",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "takeWhileInPlace",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Buffer.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.mutable.Buffer]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

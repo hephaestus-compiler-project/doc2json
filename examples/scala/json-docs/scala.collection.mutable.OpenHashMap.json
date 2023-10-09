@@ -1,0 +1,294 @@
+{
+  "name": "scala.collection.mutable.OpenHashMap",
+  "type_parameters": [
+    "Key",
+    "Value"
+  ],
+  "implements": [
+    "scala.collection.mutable.AbstractMap[Key, scala.collection.mutable.OpenHashMap.Value]",
+    "scala.collection.mutable.MapOps[Key, scala.collection.mutable.OpenHashMap.Value, scala.collection.mutable.OpenHashMap, scala.collection.mutable.OpenHashMap[Key, scala.collection.mutable.OpenHashMap.Value]]",
+    "scala.collection.StrictOptimizedIterableOps[(Key, scala.collection.mutable.OpenHashMap.Value), scala.collection.mutable.Iterable, scala.collection.mutable.OpenHashMap[Key, scala.collection.mutable.OpenHashMap.Value]]",
+    "scala.collection.MapFactoryDefaults[Key, scala.collection.mutable.OpenHashMap.Value, scala.collection.mutable.OpenHashMap, scala.collection.mutable.Iterable]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.AbstractMap[Key, scala.collection.mutable.OpenHashMap.Value]",
+    "scala.collection.mutable.MapOps[Key, scala.collection.mutable.OpenHashMap.Value, scala.collection.mutable.OpenHashMap, scala.collection.mutable.OpenHashMap[Key, scala.collection.mutable.OpenHashMap.Value]]",
+    "scala.collection.StrictOptimizedIterableOps[(Key, scala.collection.mutable.OpenHashMap.Value), scala.collection.mutable.Iterable, scala.collection.mutable.OpenHashMap[Key, scala.collection.mutable.OpenHashMap.Value]]",
+    "scala.collection.MapFactoryDefaults[Key, scala.collection.mutable.OpenHashMap.Value, scala.collection.mutable.OpenHashMap, scala.collection.mutable.Iterable]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "addOne",
+      "parameters": [
+        "(Key, scala.collection.mutable.OpenHashMap.Value)"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.OpenHashMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.OpenHashMap[Key, scala.collection.mutable.OpenHashMap.Value]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filterInPlace",
+      "parameters": [
+        "(Key, scala.collection.mutable.OpenHashMap.Value) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.OpenHashMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "((Key, scala.collection.mutable.OpenHashMap.Value)) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachEntry",
+      "parameters": [
+        "(Key, scala.collection.mutable.OpenHashMap.Value) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "get",
+      "parameters": [
+        "Key"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[scala.collection.mutable.OpenHashMap.Value]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "hashOf",
+      "parameters": [
+        "Key"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "mapValuesInPlace",
+      "parameters": [
+        "(Key, scala.collection.mutable.OpenHashMap.Value) => scala.collection.mutable.OpenHashMap.Value"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.OpenHashMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "put",
+      "parameters": [
+        "Key",
+        "scala.collection.mutable.OpenHashMap.Value"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[scala.collection.mutable.OpenHashMap.Value]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "remove",
+      "parameters": [
+        "Key"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[scala.collection.mutable.OpenHashMap.Value]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "subtractOne",
+      "parameters": [
+        "Key"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.OpenHashMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "update",
+      "parameters": [
+        "Key",
+        "scala.collection.mutable.OpenHashMap.Value"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "OpenHashMap",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "OpenHashMap",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.OpenHashMap[K, V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[(Key, scala.collection.mutable.OpenHashMap.Value)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keysIterator",
+      "type": "scala.collection.Iterator[Key]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "mapFactory",
+      "type": "scala.collection.MapFactory[scala.collection.mutable.OpenHashMap]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "valuesIterator",
+      "type": "scala.collection.Iterator[scala.collection.mutable.OpenHashMap.Value]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

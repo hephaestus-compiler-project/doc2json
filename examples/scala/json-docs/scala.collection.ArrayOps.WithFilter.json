@@ -1,0 +1,101 @@
+{
+  "name": "scala.collection.ArrayOps.WithFilter",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(A) => BS"
+      ],
+      "type_parameters": [
+        "BS",
+        "B"
+      ],
+      "return_type": "((BS) => scala.collection.Iterable[B], scala.reflect.ClassTag[B]) => scala.Array[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(A) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.reflect.ClassTag[B]) => scala.Array[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "(A) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(A) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.reflect.ClassTag[B]) => scala.Array[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "withFilter",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.ArrayOps.WithFilter[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "WithFilter",
+      "parameters": [
+        "(A) => scala.Boolean",
+        "scala.Array[A]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,356 @@
+{
+  "name": "scala.collection.StrictOptimizedIterableOps",
+  "type_parameters": [
+    "+A",
+    "+CC[_]",
+    "+C"
+  ],
+  "implements": [
+    "scala.collection.IterableOps[A, CC, C]"
+  ],
+  "inherits": [
+    "scala.collection.IterableOps[A, CC, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[A, B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropRight",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filter",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filterImpl",
+      "parameters": [
+        "(A) => scala.Boolean",
+        "scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "filterNot",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(A) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatten",
+      "parameters": [
+        "(A) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(A) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "partition",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "(C, C)",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "partitionMap",
+      "parameters": [
+        "(A) => scala.Either[A1, A2]"
+      ],
+      "type_parameters": [
+        "A1",
+        "A2"
+      ],
+      "return_type": "(CC[A1], CC[A2])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "scanLeft",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "((B, A) => B) => CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "span",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "(C, C)",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "strictOptimizedCollect",
+      "parameters": [
+        "scala.collection.mutable.Builder[B, C2]",
+        "scala.PartialFunction[A, B]"
+      ],
+      "type_parameters": [
+        "B",
+        "C2"
+      ],
+      "return_type": "C2",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "strictOptimizedConcat",
+      "parameters": [
+        "scala.collection.IterableOnce[B]",
+        "scala.collection.mutable.Builder[B, C2]"
+      ],
+      "type_parameters": [
+        "B >: A",
+        "C2"
+      ],
+      "return_type": "C2",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "strictOptimizedFlatMap",
+      "parameters": [
+        "scala.collection.mutable.Builder[B, C2]",
+        "(A) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B",
+        "C2"
+      ],
+      "return_type": "C2",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "strictOptimizedFlatten",
+      "parameters": [
+        "scala.collection.mutable.Builder[B, C2]"
+      ],
+      "type_parameters": [
+        "B",
+        "C2"
+      ],
+      "return_type": "((A) => scala.collection.IterableOnce[B]) => C2",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "strictOptimizedMap",
+      "parameters": [
+        "scala.collection.mutable.Builder[B, C2]",
+        "(A) => B"
+      ],
+      "type_parameters": [
+        "B",
+        "C2"
+      ],
+      "return_type": "C2",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "strictOptimizedZip",
+      "parameters": [
+        "scala.collection.IterableOnce[B]",
+        "scala.collection.mutable.Builder[(A, B), C2]"
+      ],
+      "type_parameters": [
+        "B",
+        "C2"
+      ],
+      "return_type": "C2",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "takeRight",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tapEach",
+      "parameters": [
+        "(A) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "unzip",
+      "parameters": [
+        "(A) => (A1, A2)"
+      ],
+      "type_parameters": [
+        "A1",
+        "A2"
+      ],
+      "return_type": "(CC[A1], CC[A2])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "unzip3",
+      "parameters": [
+        "(A) => (A1, A2, A3)"
+      ],
+      "type_parameters": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "return_type": "(CC[A1], CC[A2], CC[A3])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "zip",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "CC[(A, B)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "zipWithIndex",
+      "type": "CC[(A, scala.Int)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

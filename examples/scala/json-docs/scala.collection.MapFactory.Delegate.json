@@ -1,0 +1,61 @@
+{
+  "name": "scala.collection.MapFactory.Delegate",
+  "type_parameters": [
+    "C[_, _]"
+  ],
+  "implements": [
+    "scala.collection.MapFactory[C]"
+  ],
+  "inherits": [
+    "scala.collection.MapFactory[C]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "(K, V)*"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "C[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "C[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Delegate",
+      "parameters": [
+        "scala.collection.MapFactory[C]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

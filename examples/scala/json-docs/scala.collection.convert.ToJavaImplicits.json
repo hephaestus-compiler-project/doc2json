@@ -1,0 +1,203 @@
+{
+  "name": "scala.collection.convert.ToJavaImplicits",
+  "type_parameters": [],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "buffer AsJavaList",
+      "parameters": [
+        "scala.collection.mutable.Buffer[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.util.List[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collection asJava",
+      "parameters": [
+        "scala.collection.Iterable[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.util.Collection[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dictionary asJava",
+      "parameters": [
+        "scala.collection.mutable.Map[K, V]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "java.util.Dictionary[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "enumeration asJava",
+      "parameters": [
+        "scala.collection.Iterator[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.util.Enumeration[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "iterable asJava",
+      "parameters": [
+        "scala.collection.Iterable[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.lang.Iterable[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "iterator asJava",
+      "parameters": [
+        "scala.collection.Iterator[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.util.Iterator[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map AsJavaConcurrentMap",
+      "parameters": [
+        "scala.collection.concurrent.Map[K, V]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "java.util.concurrent.ConcurrentMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map AsJavaMap",
+      "parameters": [
+        "scala.collection.Map[K, V]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "java.util.Map[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "mutableMap AsJavaMap",
+      "parameters": [
+        "scala.collection.mutable.Map[K, V]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "java.util.Map[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "mutableSeq AsJavaList",
+      "parameters": [
+        "scala.collection.mutable.Seq[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.util.List[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "mutableSet AsJavaSet",
+      "parameters": [
+        "scala.collection.mutable.Set[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.util.Set[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "seq AsJavaList",
+      "parameters": [
+        "scala.collection.Seq[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.util.List[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "set AsJavaSet",
+      "parameters": [
+        "scala.collection.Set[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "java.util.Set[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

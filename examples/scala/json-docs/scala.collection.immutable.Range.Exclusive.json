@@ -1,0 +1,42 @@
+{
+  "name": "scala.collection.immutable.Range.Exclusive",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.immutable.Range"
+  ],
+  "inherits": [
+    "scala.collection.immutable.Range"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "Exclusive",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "isInclusive",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

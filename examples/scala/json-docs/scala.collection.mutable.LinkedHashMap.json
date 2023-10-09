@@ -1,0 +1,394 @@
+{
+  "name": "scala.collection.mutable.LinkedHashMap",
+  "type_parameters": [
+    "K",
+    "V"
+  ],
+  "implements": [
+    "scala.collection.mutable.AbstractMap[K, V]",
+    "scala.collection.mutable.SeqMap[K, V]",
+    "scala.collection.mutable.MapOps[K, V, scala.collection.mutable.LinkedHashMap, scala.collection.mutable.LinkedHashMap[K, V]]",
+    "scala.collection.StrictOptimizedIterableOps[(K, V), scala.collection.mutable.Iterable, scala.collection.mutable.LinkedHashMap[K, V]]",
+    "scala.collection.StrictOptimizedMapOps[K, V, scala.collection.mutable.LinkedHashMap, scala.collection.mutable.LinkedHashMap[K, V]]",
+    "scala.collection.MapFactoryDefaults[K, V, scala.collection.mutable.LinkedHashMap, scala.collection.mutable.Iterable]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.AbstractMap[K, V]",
+    "scala.collection.mutable.SeqMap[K, V]",
+    "scala.collection.mutable.MapOps[K, V, scala.collection.mutable.LinkedHashMap, scala.collection.mutable.LinkedHashMap[K, V]]",
+    "scala.collection.StrictOptimizedIterableOps[(K, V), scala.collection.mutable.Iterable, scala.collection.mutable.LinkedHashMap[K, V]]",
+    "scala.collection.StrictOptimizedMapOps[K, V, scala.collection.mutable.LinkedHashMap, scala.collection.mutable.LinkedHashMap[K, V]]",
+    "scala.collection.MapFactoryDefaults[K, V, scala.collection.mutable.LinkedHashMap, scala.collection.mutable.Iterable]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "addOne",
+      "parameters": [
+        "(K, V)"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.LinkedHashMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "((K, V)) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachEntry",
+      "parameters": [
+        "(K, V) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "get",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrElse",
+      "parameters": [
+        "K",
+        "=> V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "V1",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrElseUpdate",
+      "parameters": [
+        "K",
+        "=> V"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "hashCode",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "put",
+      "parameters": [
+        "K",
+        "V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "remove",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sizeHint",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "subtractOne",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.LinkedHashMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "update",
+      "parameters": [
+        "K",
+        "V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updateWith",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "((scala.Option[V]) => scala.Option[V]) => scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "LinkedHashMap",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.LinkedHashMap[K, V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "firstEntry",
+      "type": "scala.collection.mutable.LinkedHashMap.Entry",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "head",
+      "type": "(K, V)",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "headOption",
+      "type": "scala.Option[(K, V)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[(K, V)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keySet",
+      "type": "scala.collection.Set[K]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keysIterator",
+      "type": "scala.collection.Iterator[K]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "last",
+      "type": "(K, V)",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "lastEntry",
+      "type": "scala.collection.mutable.LinkedHashMap.Entry",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "lastOption",
+      "type": "scala.Option[(K, V)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "mapFactory",
+      "type": "scala.collection.MapFactory[scala.collection.mutable.LinkedHashMap]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "valuesIterator",
+      "type": "scala.collection.Iterator[V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

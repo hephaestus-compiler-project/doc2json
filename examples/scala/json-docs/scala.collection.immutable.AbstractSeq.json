@@ -1,0 +1,20 @@
+{
+  "name": "scala.collection.immutable.AbstractSeq",
+  "type_parameters": [
+    "+A"
+  ],
+  "implements": [
+    "scala.collection.AbstractSeq[A]",
+    "scala.collection.immutable.Seq[A]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractSeq[A]",
+    "scala.collection.immutable.Seq[A]"
+  ],
+  "class_type": 2,
+  "methods": [],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

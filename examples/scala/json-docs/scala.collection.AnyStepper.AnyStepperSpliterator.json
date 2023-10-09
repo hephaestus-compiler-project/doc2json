@@ -1,0 +1,85 @@
+{
+  "name": "scala.collection.AnyStepper.AnyStepperSpliterator",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "java.util.Spliterator[A]"
+  ],
+  "inherits": [
+    "java.util.Spliterator[A]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "characteristics",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "estimateSize",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Long",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "forEachRemaining",
+      "parameters": [
+        "java.util.function.Consumer[_ >: A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tryAdvance",
+      "parameters": [
+        "java.util.function.Consumer[_ >: A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "trySplit",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.util.Spliterator[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "AnyStepperSpliterator",
+      "parameters": [
+        "scala.collection.AnyStepper[A]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

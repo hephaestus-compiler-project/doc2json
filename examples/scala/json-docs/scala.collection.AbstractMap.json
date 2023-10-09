@@ -1,0 +1,21 @@
+{
+  "name": "scala.collection.AbstractMap",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.AbstractIterable[(K, V)]",
+    "scala.collection.Map[K, V]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractIterable[(K, V)]",
+    "scala.collection.Map[K, V]"
+  ],
+  "class_type": 2,
+  "methods": [],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

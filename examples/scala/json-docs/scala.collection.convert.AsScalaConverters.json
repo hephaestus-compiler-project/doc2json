@@ -1,0 +1,158 @@
+{
+  "name": "scala.collection.convert.AsScalaConverters",
+  "type_parameters": [],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.Properties"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Map[scala.Predef.String, scala.Predef.String]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.Dictionary[K, V]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.Map[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.concurrent.ConcurrentMap[K, V]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.concurrent.Map[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.Map[K, V]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.Map[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.Set[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Set[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.List[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Buffer[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.Collection[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.Iterable[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.lang.Iterable[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.Iterable[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.Enumeration[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.Iterator[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asScala",
+      "parameters": [
+        "java.util.Iterator[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.Iterator[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

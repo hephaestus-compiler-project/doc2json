@@ -1,0 +1,170 @@
+{
+  "name": "scala.collection.mutable.ArrayBuilder",
+  "type_parameters": [
+    "T"
+  ],
+  "implements": [
+    "scala.collection.mutable.ReusableBuilder[T, scala.Array[T]]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.ReusableBuilder[T, scala.Array[T]]",
+    "scala.Serializable"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "resize",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "addAll",
+      "parameters": [
+        "scala.collection.IterableOnce[T]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.ArrayBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addAll",
+      "parameters": [
+        "scala.Array[_ <: T]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.ArrayBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addAll",
+      "parameters": [
+        "scala.Array[_ <: T]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.ArrayBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "ensureSize",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "sizeHint",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "make",
+      "parameters": [
+        "scala.reflect.ClassTag[T]"
+      ],
+      "type_parameters": [
+        "T"
+      ],
+      "return_type": "scala.collection.mutable.ArrayBuilder[T]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "elems",
+      "type": "scala.Array[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "capacity",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "length",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "scala.collection.immutable.Stream.Cons",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.immutable.Stream[A]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.Stream[A]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "Cons",
+      "parameters": [
+        "A",
+        "=> scala.collection.immutable.Stream[A]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "force",
+      "type": "scala.collection.immutable.Stream.Cons.this.type",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "head",
+      "type": "A",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "tail",
+      "type": "scala.collection.immutable.Stream[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "tailDefined",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

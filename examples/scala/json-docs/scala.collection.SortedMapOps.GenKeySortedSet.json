@@ -1,0 +1,40 @@
+{
+  "name": "scala.collection.SortedMapOps.GenKeySortedSet",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.MapOps.GenKeySet"
+  ],
+  "inherits": [
+    "scala.collection.MapOps.GenKeySet"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "iteratorFrom",
+      "parameters": [
+        "scala.collection.SortedMapOps.K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[scala.collection.SortedMapOps.K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "ordering",
+      "type": "scala.Ordering[scala.collection.SortedMapOps.K]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "protected",
+  "language": "scala"
+}

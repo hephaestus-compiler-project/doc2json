@@ -1,0 +1,104 @@
+{
+  "name": "scala.collection.immutable.Set",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.immutable.Iterable[A]",
+    "scala.collection.Set[A]",
+    "scala.collection.immutable.SetOps[A, scala.collection.immutable.Set, scala.collection.immutable.Set[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.immutable.Set]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.Iterable[A]",
+    "scala.collection.Set[A]",
+    "scala.collection.immutable.SetOps[A, scala.collection.immutable.Set, scala.collection.immutable.Set[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.immutable.Set]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "canEqual",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "hashCode",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "scala.collection.immutable.Set[E]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.IterableFactory[scala.collection.immutable.Set]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

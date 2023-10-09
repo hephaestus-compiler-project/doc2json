@@ -1,0 +1,124 @@
+{
+  "name": "scala.collection.immutable.VectorBuilder",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.mutable.ReusableBuilder[A, scala.collection.immutable.Vector[A]]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.ReusableBuilder[A, scala.collection.immutable.Vector[A]]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "addAll",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.VectorBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addOne",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.VectorBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Vector[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Predef.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "VectorBuilder",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "nonEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

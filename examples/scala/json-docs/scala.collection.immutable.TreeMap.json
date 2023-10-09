@@ -1,0 +1,607 @@
+{
+  "name": "scala.collection.immutable.TreeMap",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.immutable.AbstractMap[K, V]",
+    "scala.collection.immutable.SortedMap[K, V]",
+    "scala.collection.immutable.StrictOptimizedSortedMapOps[K, V, scala.collection.immutable.TreeMap, scala.collection.immutable.TreeMap[K, V]]",
+    "scala.collection.SortedMapFactoryDefaults[K, V, scala.collection.immutable.TreeMap, scala.collection.immutable.Iterable, scala.collection.immutable.Map]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "inherits": [
+    "scala.collection.immutable.AbstractMap[K, V]",
+    "scala.collection.immutable.SortedMap[K, V]",
+    "scala.collection.immutable.StrictOptimizedSortedMapOps[K, V, scala.collection.immutable.TreeMap, scala.collection.immutable.TreeMap[K, V]]",
+    "scala.collection.SortedMapFactoryDefaults[K, V, scala.collection.immutable.TreeMap, scala.collection.immutable.Iterable, scala.collection.immutable.Map]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V1)]"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "scala.collection.immutable.TreeMap[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "drop",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropRight",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropWhile",
+      "parameters": [
+        "((K, V)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filter",
+      "parameters": [
+        "((K, V)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "((K, V)) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachEntry",
+      "parameters": [
+        "(K, V) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "get",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrElse",
+      "parameters": [
+        "K",
+        "=> V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "V1",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "iteratorFrom",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[(K, V)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "keyStepper",
+      "parameters": [
+        "scala.collection.StepperShape[K, S]"
+      ],
+      "type_parameters": [
+        "S <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S with scala.collection.Stepper.EfficientSplit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "keysIteratorFrom",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "maxBefore",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[(K, V)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "minAfter",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[(K, V)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "partition",
+      "parameters": [
+        "((K, V)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "(scala.collection.immutable.TreeMap[K, V], scala.collection.immutable.TreeMap[K, V])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "range",
+      "parameters": [
+        "K",
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "rangeImpl",
+      "parameters": [
+        "scala.Option[K]",
+        "scala.Option[K]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "removed",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "removedAll",
+      "parameters": [
+        "scala.collection.IterableOnce[K]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "slice",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "span",
+      "parameters": [
+        "((K, V)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "(scala.collection.immutable.TreeMap[K, V], scala.collection.immutable.TreeMap[K, V])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "stepper",
+      "parameters": [
+        "scala.collection.StepperShape[(K, V), S]"
+      ],
+      "type_parameters": [
+        "S <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S with scala.collection.Stepper.EfficientSplit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "take",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "takeRight",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "takeWhile",
+      "parameters": [
+        "((K, V)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "transform",
+      "parameters": [
+        "(K, V) => W"
+      ],
+      "type_parameters": [
+        "W"
+      ],
+      "return_type": "scala.collection.immutable.TreeMap[K, W]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updated",
+      "parameters": [
+        "K",
+        "V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "scala.collection.immutable.TreeMap[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "valueStepper",
+      "parameters": [
+        "scala.collection.StepperShape[V, S]"
+      ],
+      "type_parameters": [
+        "S <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S with scala.collection.Stepper.EfficientSplit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "valuesIteratorFrom",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "TreeMap",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "(scala.Ordering[K])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "empty",
+      "parameters": [
+        "scala.Ordering[K]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "(scala.Ordering[K]) => scala.collection.immutable.TreeMap[K, V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "newBuilder",
+      "parameters": [
+        "scala.Ordering[K]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.ReusableBuilder[(K, V), scala.collection.immutable.TreeMap[K, V]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "className",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "firstKey",
+      "type": "K",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "head",
+      "type": "(K, V)",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "init",
+      "type": "scala.collection.immutable.TreeMap[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[(K, V)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keySet",
+      "type": "scala.collection.immutable.TreeSet[K]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "last",
+      "type": "(K, V)",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "lastKey",
+      "type": "K",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "ordering",
+      "type": "scala.Ordering[K]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "sortedMapFactory",
+      "type": "scala.collection.SortedMapFactory[scala.collection.immutable.TreeMap]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "tail",
+      "type": "scala.collection.immutable.TreeMap[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "scala.collection.ClassTagSeqFactory.AnySeqDelegate",
+  "type_parameters": [
+    "CC[A] <: scala.collection.SeqOps[A, scala.collection.Seq, scala.collection.Seq[A]]"
+  ],
+  "implements": [
+    "scala.collection.ClassTagIterableFactory.AnyIterableDelegate[CC]",
+    "scala.collection.SeqFactory[CC]"
+  ],
+  "inherits": [
+    "scala.collection.ClassTagIterableFactory.AnyIterableDelegate[CC]",
+    "scala.collection.SeqFactory[CC]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "AnySeqDelegate",
+      "parameters": [
+        "scala.collection.ClassTagSeqFactory[CC]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

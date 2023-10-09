@@ -1,0 +1,73 @@
+{
+  "name": "scala.collection.mutable.AnyRefMap.AnyRefMapBuilder",
+  "type_parameters": [
+    "K <: scala.AnyRef",
+    "V"
+  ],
+  "implements": [
+    "scala.collection.mutable.ReusableBuilder[(K, V), scala.collection.mutable.AnyRefMap[K, V]]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.ReusableBuilder[(K, V), scala.collection.mutable.AnyRefMap[K, V]]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "addOne",
+      "parameters": [
+        "(K, V)"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.AnyRefMap.AnyRefMapBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.AnyRefMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "AnyRefMapBuilder",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "scala.collection.SeqMap",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.Map[K, V]",
+    "scala.collection.MapOps[K, V, scala.collection.SeqMap, scala.collection.SeqMap[K, V]]",
+    "scala.collection.MapFactoryDefaults[K, V, scala.collection.SeqMap, scala.collection.Iterable]"
+  ],
+  "inherits": [
+    "scala.collection.Map[K, V]",
+    "scala.collection.MapOps[K, V, scala.collection.SeqMap, scala.collection.SeqMap[K, V]]",
+    "scala.collection.MapFactoryDefaults[K, V, scala.collection.SeqMap, scala.collection.Iterable]"
+  ],
+  "class_type": 1,
+  "methods": [],
+  "fields": [
+    {
+      "name": "mapFactory",
+      "type": "scala.collection.MapFactory[scala.collection.SeqMap]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

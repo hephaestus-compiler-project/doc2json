@@ -1,0 +1,85 @@
+{
+  "name": "scala.collection.immutable.StrictOptimizedSortedMapOps",
+  "type_parameters": [
+    "K",
+    "+V",
+    "+CC[X, +Y] <: scala.collection.immutable.Map[X, Y] with scala.collection.immutable.SortedMapOps[X, Y, CC, _]",
+    "+C <: scala.collection.immutable.SortedMapOps[K, V, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.immutable.SortedMapOps[K, V, CC, C]",
+    "scala.collection.StrictOptimizedSortedMapOps[K, V, CC, C]",
+    "scala.collection.immutable.StrictOptimizedMapOps[K, V, scala.collection.immutable.Map, C]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.SortedMapOps[K, V, CC, C]",
+    "scala.collection.StrictOptimizedSortedMapOps[K, V, CC, C]",
+    "scala.collection.immutable.StrictOptimizedMapOps[K, V, scala.collection.immutable.Map, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[(K, V), (K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "(scala.Ordering[K2]) => CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V2)]"
+      ],
+      "type_parameters": [
+        "V2 >: V"
+      ],
+      "return_type": "CC[K, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((K, V)) => scala.collection.IterableOnce[(K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "(scala.Ordering[K2]) => CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((K, V)) => (K2, V2)"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "(scala.Ordering[K2]) => CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

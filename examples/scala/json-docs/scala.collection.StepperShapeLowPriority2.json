@@ -1,0 +1,27 @@
+{
+  "name": "scala.collection.StepperShapeLowPriority2",
+  "type_parameters": [],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 1,
+  "methods": [],
+  "fields": [
+    {
+      "name": "anyStepperShapePrototype",
+      "type": "scala.collection.StepperShape[scala.AnyRef, scala.collection.Stepper[scala.AnyRef]]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

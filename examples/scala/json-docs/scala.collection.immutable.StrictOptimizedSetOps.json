@@ -1,0 +1,37 @@
+{
+  "name": "scala.collection.immutable.StrictOptimizedSetOps",
+  "type_parameters": [
+    "A",
+    "+CC[X]",
+    "+C <: scala.collection.immutable.SetOps[A, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.immutable.SetOps[A, CC, C]",
+    "scala.collection.StrictOptimizedSetOps[A, CC, C]",
+    "scala.collection.StrictOptimizedIterableOps[A, CC, C]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.SetOps[A, CC, C]",
+    "scala.collection.StrictOptimizedSetOps[A, CC, C]",
+    "scala.collection.StrictOptimizedIterableOps[A, CC, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

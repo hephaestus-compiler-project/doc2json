@@ -1,0 +1,82 @@
+{
+  "name": "scala.collection.BitSet",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.SortedSet[scala.Int]",
+    "scala.collection.BitSetOps[scala.collection.BitSet]"
+  ],
+  "inherits": [
+    "scala.collection.SortedSet[scala.Int]",
+    "scala.collection.BitSetOps[scala.collection.BitSet]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[scala.Int]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.BitSet",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[scala.Int, scala.collection.BitSet]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "unsorted",
+      "type": "scala.collection.Set[scala.Int]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.BitSet",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "newBuilder",
+      "type": "scala.collection.mutable.Builder[scala.Int, scala.collection.BitSet]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

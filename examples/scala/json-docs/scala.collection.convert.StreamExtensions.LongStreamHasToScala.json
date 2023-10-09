@@ -1,0 +1,43 @@
+{
+  "name": "scala.collection.convert.StreamExtensions.LongStreamHasToScala",
+  "type_parameters": [],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "toScala",
+      "parameters": [
+        "scala.collection.Factory[scala.Long, C1]"
+      ],
+      "type_parameters": [
+        "C1"
+      ],
+      "return_type": "(scala.collection.convert.StreamExtensions.AccumulatorFactoryInfo[scala.Long, C1]) => C1",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "LongStreamHasToScala",
+      "parameters": [
+        "java.util.stream.LongStream"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

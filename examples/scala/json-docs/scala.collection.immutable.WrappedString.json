@@ -1,0 +1,282 @@
+{
+  "name": "scala.collection.immutable.WrappedString",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.immutable.AbstractSeq[scala.Char]",
+    "scala.collection.immutable.IndexedSeq[scala.Char]",
+    "scala.collection.immutable.IndexedSeqOps[scala.Char, scala.collection.immutable.IndexedSeq, scala.collection.immutable.WrappedString]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.immutable.AbstractSeq[scala.Char]",
+    "scala.collection.immutable.IndexedSeq[scala.Char]",
+    "scala.collection.immutable.IndexedSeqOps[scala.Char, scala.collection.immutable.IndexedSeq, scala.collection.immutable.WrappedString]",
+    "scala.Serializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "appendedAll",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B >: scala.Char"
+      ],
+      "return_type": "scala.collection.immutable.IndexedSeq[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Char",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "copyToArray",
+      "parameters": [
+        "scala.Array[B]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "B >: scala.Char"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "endsWith",
+      "parameters": [
+        "scala.collection.Iterable[B]"
+      ],
+      "type_parameters": [
+        "B >: scala.Char"
+      ],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "indexOf",
+      "parameters": [
+        "B",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "B >: scala.Char"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "lastIndexOf",
+      "parameters": [
+        "B",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "B >: scala.Char"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sameElements",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B >: scala.Char"
+      ],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "slice",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.WrappedString",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "startsWith",
+      "parameters": [
+        "scala.collection.IterableOnce[B]",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "B >: scala.Char"
+      ],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "stepper",
+      "parameters": [
+        "scala.collection.StepperShape[scala.Char, S]"
+      ],
+      "type_parameters": [
+        "S <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S with scala.collection.Stepper.EfficientSplit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "WrappedString",
+      "parameters": [
+        "scala.Predef.String"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[scala.Char]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.WrappedString",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "applyPreferredMaxLength",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "className",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "length",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[scala.Char, scala.collection.immutable.WrappedString]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "view",
+      "type": "scala.collection.immutable.StringView",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.immutable.WrappedString",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "newBuilder",
+      "type": "scala.collection.mutable.Builder[scala.Char, scala.collection.immutable.WrappedString]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

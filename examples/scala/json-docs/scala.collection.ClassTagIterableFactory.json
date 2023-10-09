@@ -1,0 +1,182 @@
+{
+  "name": "scala.collection.ClassTagIterableFactory",
+  "type_parameters": [
+    "+CC[_]"
+  ],
+  "implements": [
+    "scala.collection.EvidenceIterableFactory[CC, scala.reflect.ClassTag]"
+  ],
+  "inherits": [
+    "scala.collection.EvidenceIterableFactory[CC, scala.reflect.ClassTag]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(=> A) => (scala.reflect.ClassTag[A]) => CC[CC[CC[CC[CC[A]]]]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(=> A) => (scala.reflect.ClassTag[A]) => CC[CC[CC[CC[A]]]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(=> A) => (scala.reflect.ClassTag[A]) => CC[CC[CC[A]]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(=> A) => (scala.reflect.ClassTag[A]) => CC[CC[A]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "range",
+      "parameters": [
+        "A",
+        "A",
+        "A"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(scala.Integral[A], scala.reflect.ClassTag[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "range",
+      "parameters": [
+        "A",
+        "A"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(scala.Integral[A], scala.reflect.ClassTag[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tabulate",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((scala.Int, scala.Int, scala.Int, scala.Int, scala.Int) => A) => (scala.reflect.ClassTag[A]) => CC[CC[CC[CC[CC[A]]]]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tabulate",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((scala.Int, scala.Int, scala.Int, scala.Int) => A) => (scala.reflect.ClassTag[A]) => CC[CC[CC[CC[A]]]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tabulate",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((scala.Int, scala.Int, scala.Int) => A) => (scala.reflect.ClassTag[A]) => CC[CC[CC[A]]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tabulate",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((scala.Int, scala.Int) => A) => (scala.reflect.ClassTag[A]) => CC[CC[A]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

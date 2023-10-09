@@ -1,0 +1,608 @@
+{
+  "name": "scala.collection.mutable.LongMap",
+  "type_parameters": [
+    "V"
+  ],
+  "implements": [
+    "scala.collection.mutable.AbstractMap[scala.Long, V]",
+    "scala.collection.mutable.MapOps[scala.Long, V, scala.collection.mutable.Map, scala.collection.mutable.LongMap[V]]",
+    "scala.collection.StrictOptimizedIterableOps[(scala.Long, V), scala.collection.mutable.Iterable, scala.collection.mutable.LongMap[V]]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.AbstractMap[scala.Long, V]",
+    "scala.collection.mutable.MapOps[scala.Long, V, scala.collection.mutable.Map, scala.collection.mutable.LongMap[V]]",
+    "scala.collection.StrictOptimizedIterableOps[(scala.Long, V), scala.collection.mutable.Iterable, scala.collection.mutable.LongMap[V]]",
+    "scala.Serializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "++",
+      "parameters": [
+        "scala.collection.IterableOnce[(scala.Long, V1)]"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addOne",
+      "parameters": [
+        "(scala.Long, V)"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.LongMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addOne",
+      "parameters": [
+        "scala.Long",
+        "V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.LongMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.LongMap[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[(scala.Long, V), (scala.Long, V2)]"
+      ],
+      "type_parameters": [
+        "V2"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(scala.Long, V1)]"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "parameters": [
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "default",
+      "parameters": [
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((scala.Long, V)) => scala.collection.IterableOnce[(scala.Long, V2)]"
+      ],
+      "type_parameters": [
+        "V2"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "((scala.Long, V)) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachEntry",
+      "parameters": [
+        "(scala.Long, V) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachKey",
+      "parameters": [
+        "(scala.Long) => A"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachValue",
+      "parameters": [
+        "(V) => A"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[(scala.Long, V)]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.LongMap[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "get",
+      "parameters": [
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrElse",
+      "parameters": [
+        "scala.Long",
+        "=> V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "V1",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrElseUpdate",
+      "parameters": [
+        "scala.Long",
+        "=> V"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrNull",
+      "parameters": [
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((scala.Long, V)) => (scala.Long, V2)"
+      ],
+      "type_parameters": [
+        "V2"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "mapValuesNow",
+      "parameters": [
+        "(V) => V1"
+      ],
+      "type_parameters": [
+        "V1"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "put",
+      "parameters": [
+        "scala.Long",
+        "V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "repack",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "subtractOne",
+      "parameters": [
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.LongMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "transformValuesInPlace",
+      "parameters": [
+        "(V) => V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.LongMap.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "update",
+      "parameters": [
+        "scala.Long",
+        "V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "writeReplace",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.AnyRef",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "LongMap",
+      "parameters": [
+        "(scala.Long) => V",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "LongMap",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "LongMap",
+      "parameters": [
+        "(scala.Long) => V"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "LongMap",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "(scala.Long, V)*"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(scala.Long, V)]"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromZip",
+      "parameters": [
+        "scala.collection.Iterable[scala.Long]",
+        "scala.collection.Iterable[V]"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromZip",
+      "parameters": [
+        "scala.Array[scala.Long]",
+        "scala.Array[V]"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toBuildFrom",
+      "parameters": [
+        "scala.collection.mutable.LongMap.type"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.BuildFrom[scala.Any, (scala.Long, V), scala.collection.mutable.LongMap[V]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toFactory",
+      "parameters": [
+        "scala.collection.mutable.LongMap.type"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.Factory[(scala.Long, V), scala.collection.mutable.LongMap[V]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "withDefault",
+      "parameters": [
+        "(scala.Long) => V"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.LongMap[V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "className",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.mutable.LongMap[V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[(scala.Long, V)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keysIterator",
+      "type": "scala.collection.Iterator[scala.Long]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[(scala.Long, V), scala.collection.mutable.LongMap[V]]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "valuesIterator",
+      "type": "scala.collection.Iterator[V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

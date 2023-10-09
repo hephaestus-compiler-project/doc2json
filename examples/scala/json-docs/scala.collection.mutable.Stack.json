@@ -1,0 +1,195 @@
+{
+  "name": "scala.collection.mutable.Stack",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.mutable.ArrayDeque[A]",
+    "scala.collection.mutable.IndexedSeqOps[A, scala.collection.mutable.Stack, scala.collection.mutable.Stack[A]]",
+    "scala.collection.StrictOptimizedSeqOps[A, scala.collection.mutable.Stack, scala.collection.mutable.Stack[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.mutable.Stack]",
+    "scala.collection.mutable.ArrayDequeOps[A, scala.collection.mutable.Stack, scala.collection.mutable.Stack[A]]",
+    "scala.collection.mutable.Cloneable[scala.collection.mutable.Stack[A]]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.ArrayDeque[A]",
+    "scala.collection.mutable.IndexedSeqOps[A, scala.collection.mutable.Stack, scala.collection.mutable.Stack[A]]",
+    "scala.collection.StrictOptimizedSeqOps[A, scala.collection.mutable.Stack, scala.collection.mutable.Stack[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.mutable.Stack]",
+    "scala.collection.mutable.ArrayDequeOps[A, scala.collection.mutable.Stack, scala.collection.mutable.Stack[A]]",
+    "scala.collection.mutable.Cloneable[scala.collection.mutable.Stack[A]]",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "klone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Stack[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "ofArray",
+      "parameters": [
+        "scala.Array[scala.AnyRef]",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Stack[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "pop",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "A",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "popAll",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.Seq[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "popWhile",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Seq[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "push",
+      "parameters": [
+        "A",
+        "A",
+        "A*"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Stack.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "push",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Stack.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "pushAll",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.Stack.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Stack",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "Stack",
+      "parameters": [
+        "scala.Array[scala.AnyRef]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "protected"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Stack[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.mutable.Stack]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "top",
+      "type": "A",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

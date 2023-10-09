@@ -1,0 +1,70 @@
+{
+  "name": "scala.collection.immutable.SortedMapOps.ImmutableKeySortedSet",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.immutable.AbstractSet[scala.collection.immutable.SortedMapOps.K]",
+    "scala.collection.immutable.SortedSet[scala.collection.immutable.SortedMapOps.K]",
+    "scala.collection.MapOps.GenKeySet",
+    "scala.collection.SortedMapOps.GenKeySortedSet"
+  ],
+  "inherits": [
+    "scala.collection.immutable.AbstractSet[scala.collection.immutable.SortedMapOps.K]",
+    "scala.collection.immutable.SortedSet[scala.collection.immutable.SortedMapOps.K]",
+    "scala.collection.MapOps.GenKeySet",
+    "scala.collection.SortedMapOps.GenKeySortedSet"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "excl",
+      "parameters": [
+        "scala.collection.immutable.SortedMapOps.K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.SortedSet[scala.collection.immutable.SortedMapOps.K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "incl",
+      "parameters": [
+        "scala.collection.immutable.SortedMapOps.K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.SortedSet[scala.collection.immutable.SortedMapOps.K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "rangeImpl",
+      "parameters": [
+        "scala.Option[scala.collection.immutable.SortedMapOps.K]",
+        "scala.Option[scala.collection.immutable.SortedMapOps.K]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.SortedSet[scala.collection.immutable.SortedMapOps.K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "ImmutableKeySortedSet",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "protected",
+  "language": "scala"
+}

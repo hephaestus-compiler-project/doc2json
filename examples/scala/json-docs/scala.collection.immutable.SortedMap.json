@@ -1,0 +1,112 @@
+{
+  "name": "scala.collection.immutable.SortedMap",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.immutable.Map[K, V]",
+    "scala.collection.SortedMap[K, V]",
+    "scala.collection.immutable.SortedMapOps[K, V, scala.collection.immutable.SortedMap, scala.collection.immutable.SortedMap[K, V]]",
+    "scala.collection.SortedMapFactoryDefaults[K, V, scala.collection.immutable.SortedMap, scala.collection.immutable.Iterable, scala.collection.immutable.Map]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.Map[K, V]",
+    "scala.collection.SortedMap[K, V]",
+    "scala.collection.immutable.SortedMapOps[K, V, scala.collection.immutable.SortedMap, scala.collection.immutable.SortedMap[K, V]]",
+    "scala.collection.SortedMapFactoryDefaults[K, V, scala.collection.immutable.SortedMap, scala.collection.immutable.Iterable, scala.collection.immutable.Map]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "withDefault",
+      "parameters": [
+        "(K) => V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "scala.collection.immutable.SortedMap[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "withDefaultValue",
+      "parameters": [
+        "V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "scala.collection.immutable.SortedMap[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "(scala.Ordering[K]) => scala.collection.immutable.SortedMap[K, V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "sortedMapFactory",
+      "type": "scala.collection.SortedMapFactory[scala.collection.immutable.SortedMap]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "unsorted",
+      "type": "scala.collection.immutable.Map[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

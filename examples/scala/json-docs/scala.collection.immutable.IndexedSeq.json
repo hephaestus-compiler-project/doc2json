@@ -1,0 +1,106 @@
+{
+  "name": "scala.collection.immutable.IndexedSeq",
+  "type_parameters": [
+    "+A"
+  ],
+  "implements": [
+    "scala.collection.immutable.Seq[A]",
+    "scala.collection.IndexedSeq[A]",
+    "scala.collection.immutable.IndexedSeqOps[A, scala.collection.immutable.IndexedSeq, scala.collection.immutable.IndexedSeq[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.immutable.IndexedSeq]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.Seq[A]",
+    "scala.collection.IndexedSeq[A]",
+    "scala.collection.immutable.IndexedSeqOps[A, scala.collection.immutable.IndexedSeq, scala.collection.immutable.IndexedSeq[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.immutable.IndexedSeq]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "canEqual",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sameElements",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "scala.collection.immutable.IndexedSeq[E]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "applyPreferredMaxLength",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.immutable.IndexedSeq]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "toIndexedSeq",
+      "type": "scala.collection.immutable.IndexedSeq[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

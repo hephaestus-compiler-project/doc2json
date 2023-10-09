@@ -1,0 +1,401 @@
+{
+  "name": "scala.collection.mutable.PriorityQueue",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.mutable.AbstractIterable[A]",
+    "scala.collection.mutable.Iterable[A]",
+    "scala.collection.IterableOps[A, scala.collection.mutable.Iterable, scala.collection.mutable.PriorityQueue[A]]",
+    "scala.collection.StrictOptimizedIterableOps[A, scala.collection.mutable.Iterable, scala.collection.mutable.PriorityQueue[A]]",
+    "scala.collection.mutable.Builder[A, scala.collection.mutable.PriorityQueue[A]]",
+    "scala.collection.mutable.Cloneable[scala.collection.mutable.PriorityQueue[A]]",
+    "scala.collection.mutable.Growable[A]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.AbstractIterable[A]",
+    "scala.collection.mutable.Iterable[A]",
+    "scala.collection.IterableOps[A, scala.collection.mutable.Iterable, scala.collection.mutable.PriorityQueue[A]]",
+    "scala.collection.StrictOptimizedIterableOps[A, scala.collection.mutable.Iterable, scala.collection.mutable.PriorityQueue[A]]",
+    "scala.collection.mutable.Builder[A, scala.collection.mutable.PriorityQueue[A]]",
+    "scala.collection.mutable.Cloneable[scala.collection.mutable.PriorityQueue[A]]",
+    "scala.collection.mutable.Growable[A]",
+    "scala.Serializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "++",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.PriorityQueue[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addAll",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.PriorityQueue.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addOne",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.PriorityQueue.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.PriorityQueue[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "copyToArray",
+      "parameters": [
+        "scala.Array[B]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dequeue",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "A",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "enqueue",
+      "parameters": [
+        "A*"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fixDown",
+      "parameters": [
+        "scala.Array[scala.AnyRef]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "fixUp",
+      "parameters": [
+        "scala.Array[scala.AnyRef]",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.PriorityQueue[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "mapInPlace",
+      "parameters": [
+        "(A) => A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.PriorityQueue.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.PriorityQueue[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Predef.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "writeReplace",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.AnyRef",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "PriorityQueue",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "(scala.math.Ordering[A])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "empty",
+      "parameters": [
+        "scala.math.Ordering[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.PriorityQueue[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "(scala.math.Ordering[E]) => scala.collection.mutable.PriorityQueue[E]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "newBuilder",
+      "parameters": [
+        "scala.math.Ordering[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Builder[A, scala.collection.mutable.PriorityQueue[A]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "className",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.mutable.PriorityQueue[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "head",
+      "type": "A",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "length",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[A, scala.collection.mutable.PriorityQueue[A]]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "ord",
+      "type": "scala.math.Ordering[A]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "reverse",
+      "type": "scala.collection.mutable.PriorityQueue[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "reverseIterator",
+      "type": "scala.collection.Iterator[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "toList",
+      "type": "scala.collection.immutable.List[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "toQueue",
+      "type": "scala.collection.mutable.Queue[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

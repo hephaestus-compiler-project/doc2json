@@ -1,0 +1,31 @@
+{
+  "name": "scala.collection.generic.IsMap",
+  "type_parameters": [
+    "Repr"
+  ],
+  "implements": [
+    "scala.collection.generic.IsIterable[scala.collection.generic.IsMap.Repr]"
+  ],
+  "inherits": [
+    "scala.collection.generic.IsIterable[scala.collection.generic.IsMap.Repr]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.collection.generic.IsMap.Repr"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.MapOps[scala.collection.generic.IsMap.K, scala.collection.generic.IsMap.V, [X, Y]scala.collection.Iterable[(X, Y)], scala.collection.generic.IsMap.C]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

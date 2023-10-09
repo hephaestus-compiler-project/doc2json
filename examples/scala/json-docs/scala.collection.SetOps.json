@@ -1,0 +1,177 @@
+{
+  "name": "scala.collection.SetOps",
+  "type_parameters": [
+    "A",
+    "+CC[_]",
+    "+C <: scala.collection.SetOps[A, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.IterableOps[A, CC, C]",
+    "(A) => scala.Boolean"
+  ],
+  "inherits": [
+    "scala.collection.IterableOps[A, CC, C]",
+    "(A) => scala.Boolean"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "contains",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "diff",
+      "parameters": [
+        "scala.collection.Set[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "&",
+      "parameters": [
+        "scala.collection.Set[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "&~",
+      "parameters": [
+        "scala.collection.Set[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "++",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "intersect",
+      "parameters": [
+        "scala.collection.Set[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "subsetOf",
+      "parameters": [
+        "scala.collection.Set[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "subsets",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[C]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "subsets",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[C]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "union",
+      "parameters": [
+        "scala.collection.Set[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "|",
+      "parameters": [
+        "scala.collection.Set[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "scala.collection.mutable.Cloneable",
+  "type_parameters": [
+    "+C <: scala.AnyRef"
+  ],
+  "implements": [
+    "scala.Cloneable"
+  ],
+  "inherits": [
+    "scala.Cloneable"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "clone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

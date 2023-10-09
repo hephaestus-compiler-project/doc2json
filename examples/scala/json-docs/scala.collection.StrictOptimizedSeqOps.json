@@ -1,0 +1,136 @@
+{
+  "name": "scala.collection.StrictOptimizedSeqOps",
+  "type_parameters": [
+    "+A",
+    "+CC[_]",
+    "+C"
+  ],
+  "implements": [
+    "scala.collection.SeqOps[A, CC, C]",
+    "scala.collection.StrictOptimizedIterableOps[A, CC, C]"
+  ],
+  "inherits": [
+    "scala.collection.SeqOps[A, CC, C]",
+    "scala.collection.StrictOptimizedIterableOps[A, CC, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "appended",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "appendedAll",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "diff",
+      "parameters": [
+        "scala.collection.Seq[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "distinctBy",
+      "parameters": [
+        "(A) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "intersect",
+      "parameters": [
+        "scala.collection.Seq[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "padTo",
+      "parameters": [
+        "scala.Int",
+        "B"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "prepended",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "prependedAll",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

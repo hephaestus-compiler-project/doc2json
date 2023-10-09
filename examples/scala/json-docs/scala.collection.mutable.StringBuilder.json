@@ -1,0 +1,849 @@
+{
+  "name": "scala.collection.mutable.StringBuilder",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.mutable.AbstractSeq[scala.Char]",
+    "scala.collection.mutable.ReusableBuilder[scala.Char, scala.Predef.String]",
+    "scala.collection.mutable.IndexedSeq[scala.Char]",
+    "scala.collection.mutable.IndexedSeqOps[scala.Char, scala.collection.mutable.IndexedSeq, scala.collection.mutable.StringBuilder]",
+    "scala.collection.IterableFactoryDefaults[scala.Char, scala.collection.mutable.IndexedSeq]",
+    "java.lang.CharSequence",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.AbstractSeq[scala.Char]",
+    "scala.collection.mutable.ReusableBuilder[scala.Char, scala.Predef.String]",
+    "scala.collection.mutable.IndexedSeq[scala.Char]",
+    "scala.collection.mutable.IndexedSeqOps[scala.Char, scala.collection.mutable.IndexedSeq, scala.collection.mutable.StringBuilder]",
+    "scala.collection.IterableFactoryDefaults[scala.Char, scala.collection.mutable.IndexedSeq]",
+    "java.lang.CharSequence",
+    "scala.Serializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "++=",
+      "parameters": [
+        "scala.Predef.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addAll",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addOne",
+      "parameters": [
+        "scala.Char"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Char"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Double"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Float"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Short"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Byte"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.collection.mutable.StringBuilder"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "java.lang.CharSequence"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Predef.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "appendAll",
+      "parameters": [
+        "scala.Array[scala.Char]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "appendAll",
+      "parameters": [
+        "scala.Array[scala.Char]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "appendAll",
+      "parameters": [
+        "scala.collection.IterableOnce[scala.Char]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "appendAll",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Char",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "charAt",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Char",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "delete",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "deleteCharAt",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "ensureCapacity",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[scala.Char]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "indexOf",
+      "parameters": [
+        "java.lang.String",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "indexOf",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Char"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Double"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Float"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Short"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Byte"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "java.lang.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insert",
+      "parameters": [
+        "scala.Int",
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insertAll",
+      "parameters": [
+        "scala.Int",
+        "scala.Array[scala.Char]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insertAll",
+      "parameters": [
+        "scala.Int",
+        "scala.collection.IterableOnce[scala.Char]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "insertAll",
+      "parameters": [
+        "scala.Int",
+        "scala.Array[scala.Char]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "lastIndexOf",
+      "parameters": [
+        "java.lang.String",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "lastIndexOf",
+      "parameters": [
+        "java.lang.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "length",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "length_=",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "replace",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "java.lang.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "reverseInPlace",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "setCharAt",
+      "parameters": [
+        "scala.Int",
+        "scala.Char"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.StringBuilder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "setLength",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "subSequence",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "java.lang.CharSequence",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "substring",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "substring",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toArray",
+      "parameters": [
+        "scala.reflect.ClassTag[B]"
+      ],
+      "type_parameters": [
+        "B >: scala.Char"
+      ],
+      "return_type": "scala.Array[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Predef.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "update",
+      "parameters": [
+        "scala.Int",
+        "scala.Char"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "StringBuilder",
+      "parameters": [
+        "scala.Int",
+        "scala.Predef.String"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "StringBuilder",
+      "parameters": [
+        "scala.Predef.String"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "StringBuilder",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "StringBuilder",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    },
+    {
+      "name": "StringBuilder",
+      "parameters": [
+        "java.lang.StringBuilder"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "capacity",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.mutable.StringBuilder",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[scala.Char, scala.collection.mutable.StringBuilder]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "toCharArray",
+      "type": "scala.Array[scala.Char]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "underlying",
+      "type": "java.lang.StringBuilder",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

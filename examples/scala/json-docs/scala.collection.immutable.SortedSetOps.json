@@ -1,0 +1,196 @@
+{
+  "name": "scala.collection.immutable.SortedSetOps",
+  "type_parameters": [
+    "A",
+    "+CC[X] <: scala.collection.immutable.SortedSet[X]",
+    "+C <: scala.collection.immutable.SortedSetOps[A, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.immutable.SetOps[A, scala.collection.immutable.Set, C]",
+    "scala.collection.SortedSetOps[A, CC, C]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.SetOps[A, scala.collection.immutable.Set, C]",
+    "scala.collection.SortedSetOps[A, CC, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "iteratorFrom",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[A, B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(A) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(A) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "max",
+      "parameters": [
+        "scala.Ordering[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "A",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "maxBefore",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "min",
+      "parameters": [
+        "scala.Ordering[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "A",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "minAfter",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "rangeTo",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "zip",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[(A, B)]) => CC[(A, B)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "sortedIterableFactory",
+      "type": "scala.collection.SortedIterableFactory[CC]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "unsorted",
+      "type": "scala.collection.immutable.Set[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "firstKey",
+      "type": "A",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "lastKey",
+      "type": "A",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

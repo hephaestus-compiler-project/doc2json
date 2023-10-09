@@ -1,0 +1,302 @@
+{
+  "name": "scala.collection.immutable.SortedMapOps",
+  "type_parameters": [
+    "K",
+    "+V",
+    "+CC[X, +Y] <: scala.collection.immutable.Map[X, Y] with scala.collection.immutable.SortedMapOps[X, Y, CC, _]",
+    "+C <: scala.collection.immutable.SortedMapOps[K, V, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.immutable.MapOps[K, V, scala.collection.immutable.Map, C]",
+    "scala.collection.SortedMapOps[K, V, CC, C]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.MapOps[K, V, scala.collection.immutable.Map, C]",
+    "scala.collection.SortedMapOps[K, V, CC, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "iteratorFrom",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[(K, V)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "keysIteratorFrom",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updated",
+      "parameters": [
+        "K",
+        "V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "CC[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "+",
+      "parameters": [
+        "(K, V1)"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "CC[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "++",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V2)]"
+      ],
+      "type_parameters": [
+        "V2 >: V"
+      ],
+      "return_type": "CC[K, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[(K, V), (K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "(scala.Ordering[K2]) => CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V2)]"
+      ],
+      "type_parameters": [
+        "V2 >: V"
+      ],
+      "return_type": "CC[K, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((K, V)) => scala.collection.IterableOnce[(K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "(scala.Ordering[K2]) => CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((K, V)) => (K2, V2)"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "(scala.Ordering[K2]) => CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "maxBefore",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[(K, V)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "minAfter",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[(K, V)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "rangeTo",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sortedMapFromIterable",
+      "parameters": [
+        "scala.collection.Iterable[(K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "(scala.Ordering[K2]) => CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "transform",
+      "parameters": [
+        "(K, V) => W"
+      ],
+      "type_parameters": [
+        "W"
+      ],
+      "return_type": "CC[K, W]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updatedWith",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "((scala.Option[V]) => scala.Option[V1]) => CC[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "valuesIteratorFrom",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "coll",
+      "type": "C with CC[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "sortedMapFactory",
+      "type": "scala.collection.SortedMapFactory[CC]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "unsorted",
+      "type": "scala.collection.immutable.Map[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "firstKey",
+      "type": "K",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keySet",
+      "type": "scala.collection.immutable.SortedSet[K]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "lastKey",
+      "type": "K",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

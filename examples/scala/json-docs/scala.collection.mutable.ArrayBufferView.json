@@ -1,0 +1,241 @@
+{
+  "name": "scala.collection.mutable.ArrayBufferView",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.AbstractIndexedSeqView[A]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractIndexedSeqView[A]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "appended",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.IndexedSeqView[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "appendedAll",
+      "parameters": [
+        "scala.collection.IndexedSeqView.SomeIndexedSeqOps[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.IndexedSeqView[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "A",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IndexedSeqView.SomeIndexedSeqOps[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.IndexedSeqView[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "drop",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.IndexedSeqView[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropRight",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.IndexedSeqView[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(A) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.collection.IndexedSeqView[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "prepended",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.IndexedSeqView[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "prependedAll",
+      "parameters": [
+        "scala.collection.IndexedSeqView.SomeIndexedSeqOps[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.IndexedSeqView[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "slice",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.IndexedSeqView[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "take",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.IndexedSeqView[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "takeRight",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.IndexedSeqView[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tapEach",
+      "parameters": [
+        "(A) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.collection.IndexedSeqView[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "className",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "length",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "reverse",
+      "type": "scala.collection.IndexedSeqView[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "reverseIterator",
+      "type": "scala.collection.Iterator[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

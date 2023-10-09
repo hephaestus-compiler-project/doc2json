@@ -1,0 +1,31 @@
+{
+  "name": "scala.collection.generic.IsIterable",
+  "type_parameters": [
+    "Repr"
+  ],
+  "implements": [
+    "scala.collection.generic.IsIterableOnce[scala.collection.generic.IsIterable.Repr]"
+  ],
+  "inherits": [
+    "scala.collection.generic.IsIterableOnce[scala.collection.generic.IsIterable.Repr]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.collection.generic.IsIterable.Repr"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.IterableOps[scala.collection.generic.IsIterable.A, scala.collection.Iterable, scala.collection.generic.IsIterable.C]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

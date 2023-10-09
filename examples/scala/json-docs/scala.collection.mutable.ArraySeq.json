@@ -1,0 +1,243 @@
+{
+  "name": "scala.collection.mutable.ArraySeq",
+  "type_parameters": [
+    "T"
+  ],
+  "implements": [
+    "scala.collection.mutable.AbstractSeq[T]",
+    "scala.collection.mutable.IndexedSeq[T]",
+    "scala.collection.mutable.IndexedSeqOps[T, scala.collection.mutable.ArraySeq, scala.collection.mutable.ArraySeq[T]]",
+    "scala.collection.StrictOptimizedSeqOps[T, scala.collection.mutable.ArraySeq, scala.collection.mutable.ArraySeq[T]]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.mutable.AbstractSeq[T]",
+    "scala.collection.mutable.IndexedSeq[T]",
+    "scala.collection.mutable.IndexedSeqOps[T, scala.collection.mutable.ArraySeq, scala.collection.mutable.ArraySeq[T]]",
+    "scala.collection.StrictOptimizedSeqOps[T, scala.collection.mutable.ArraySeq, scala.collection.mutable.ArraySeq[T]]",
+    "scala.Serializable"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "update",
+      "parameters": [
+        "scala.Int",
+        "T"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.ArraySeq[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "copyToArray",
+      "parameters": [
+        "scala.Array[B]",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "B >: T"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[T]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.ArraySeq[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "sortInPlace",
+      "parameters": [],
+      "type_parameters": [
+        "B >: T"
+      ],
+      "return_type": "(scala.Ordering[B]) => scala.collection.mutable.ArraySeq.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sorted",
+      "parameters": [
+        "scala.Ordering[B]"
+      ],
+      "type_parameters": [
+        "B >: T"
+      ],
+      "return_type": "scala.collection.mutable.ArraySeq[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "empty",
+      "parameters": [
+        "scala.reflect.ClassTag[T]"
+      ],
+      "type_parameters": [
+        "T"
+      ],
+      "return_type": "scala.collection.mutable.ArraySeq[T]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(scala.reflect.ClassTag[A]) => scala.collection.mutable.ArraySeq[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "make",
+      "parameters": [
+        "scala.Array[T]"
+      ],
+      "type_parameters": [
+        "T"
+      ],
+      "return_type": "scala.collection.mutable.ArraySeq[T]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "newBuilder",
+      "parameters": [
+        "scala.reflect.ClassTag[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Builder[A, scala.collection.mutable.ArraySeq[A]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "array",
+      "type": "scala.Array[_]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "elemTag",
+      "type": "scala.reflect.ClassTag[_]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "className",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.mutable.ArraySeq[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.mutable.ArraySeq]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[T, scala.collection.mutable.ArraySeq[T]]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "untagged",
+      "type": "scala.collection.SeqFactory[scala.collection.mutable.ArraySeq]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

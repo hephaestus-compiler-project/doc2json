@@ -1,0 +1,67 @@
+{
+  "name": "scala.collection.Factory",
+  "type_parameters": [
+    "-A",
+    "+C"
+  ],
+  "implements": [
+    "scala.Any"
+  ],
+  "inherits": [
+    "scala.Any"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "arrayFactory",
+      "parameters": [
+        "scala.reflect.ClassTag[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.Factory[A, scala.Array[A]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "newBuilder",
+      "type": "scala.collection.mutable.Builder[A, C]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringFactory",
+      "type": "scala.collection.Factory[scala.Char, scala.Predef.String]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

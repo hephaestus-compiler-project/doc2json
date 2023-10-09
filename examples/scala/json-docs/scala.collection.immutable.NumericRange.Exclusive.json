@@ -1,0 +1,58 @@
+{
+  "name": "scala.collection.immutable.NumericRange.Exclusive",
+  "type_parameters": [
+    "T"
+  ],
+  "implements": [
+    "scala.collection.immutable.NumericRange[T]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.NumericRange[T]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "copy",
+      "parameters": [
+        "T",
+        "T",
+        "T"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.NumericRange.Exclusive[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Exclusive",
+      "parameters": [
+        "T",
+        "T",
+        "T"
+      ],
+      "type_parameters": [],
+      "return_type": "(scala.Integral[T])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "inclusive",
+      "type": "scala.collection.immutable.NumericRange.Inclusive[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "scala.collection.convert.StreamExtensions.ByteArrayHasSeqParStream",
+  "type_parameters": [],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "ByteArrayHasSeqParStream",
+      "parameters": [
+        "scala.Array[scala.Byte]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "asJavaParStream",
+      "type": "java.util.stream.IntStream",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "asJavaSeqStream",
+      "type": "java.util.stream.IntStream",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

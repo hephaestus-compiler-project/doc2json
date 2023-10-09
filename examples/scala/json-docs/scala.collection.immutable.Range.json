@@ -1,0 +1,639 @@
+{
+  "name": "scala.collection.immutable.Range",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.immutable.AbstractSeq[scala.Int]",
+    "scala.collection.immutable.IndexedSeq[scala.Int]",
+    "scala.collection.immutable.IndexedSeqOps[scala.Int, scala.collection.immutable.IndexedSeq, scala.collection.immutable.IndexedSeq[scala.Int]]",
+    "scala.collection.immutable.StrictOptimizedSeqOps[scala.Int, scala.collection.immutable.IndexedSeq, scala.collection.immutable.IndexedSeq[scala.Int]]",
+    "scala.collection.IterableFactoryDefaults[scala.Int, scala.collection.immutable.IndexedSeq]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.immutable.AbstractSeq[scala.Int]",
+    "scala.collection.immutable.IndexedSeq[scala.Int]",
+    "scala.collection.immutable.IndexedSeqOps[scala.Int, scala.collection.immutable.IndexedSeq, scala.collection.immutable.IndexedSeq[scala.Int]]",
+    "scala.collection.immutable.StrictOptimizedSeqOps[scala.Int, scala.collection.immutable.IndexedSeq, scala.collection.immutable.IndexedSeq[scala.Int]]",
+    "scala.collection.IterableFactoryDefaults[scala.Int, scala.collection.immutable.IndexedSeq]",
+    "scala.Serializable"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "by",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B >: scala.Int"
+      ],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "copy",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int",
+        "scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "drop",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropRight",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropWhile",
+      "parameters": [
+        "(scala.Int) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "(scala.Int) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "grouped",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Iterator[scala.collection.immutable.Range]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "hashCode",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "indexOf",
+      "parameters": [
+        "B",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "B >: scala.Int"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "lastIndexOf",
+      "parameters": [
+        "B",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "B >: scala.Int"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(scala.Int) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.collection.immutable.IndexedSeq[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "max",
+      "parameters": [
+        "scala.Ordering[A1]"
+      ],
+      "type_parameters": [
+        "A1 >: scala.Int"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "min",
+      "parameters": [
+        "scala.Ordering[A1]"
+      ],
+      "type_parameters": [
+        "A1 >: scala.Int"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sameElements",
+      "parameters": [
+        "scala.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B >: scala.Int"
+      ],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "slice",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sorted",
+      "parameters": [
+        "scala.Ordering[B]"
+      ],
+      "type_parameters": [
+        "B >: scala.Int"
+      ],
+      "return_type": "scala.collection.immutable.IndexedSeq[scala.Int]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "span",
+      "parameters": [
+        "(scala.Int) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "(scala.collection.immutable.Range, scala.collection.immutable.Range)",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "splitAt",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "(scala.collection.immutable.Range, scala.collection.immutable.Range)",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "stepper",
+      "parameters": [
+        "scala.collection.StepperShape[scala.Int, S]"
+      ],
+      "type_parameters": [
+        "S <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S with scala.collection.Stepper.EfficientSplit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sum",
+      "parameters": [
+        "scala.Numeric[B]"
+      ],
+      "type_parameters": [
+        "B >: scala.Int"
+      ],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "take",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "takeRight",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "takeWhile",
+      "parameters": [
+        "(scala.Int) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Predef.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range.Exclusive",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range.Exclusive",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "count",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "count",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int",
+        "scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "inclusive",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range.Inclusive",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "inclusive",
+      "parameters": [
+        "scala.Int",
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Range.Inclusive",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "isInclusive",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "applyPreferredMaxLength",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "className",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "distinct",
+      "type": "scala.collection.immutable.Range",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "end",
+      "type": "scala.Int",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "head",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "inclusive",
+      "type": "scala.collection.immutable.Range",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "init",
+      "type": "scala.collection.immutable.Range",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "inits",
+      "type": "scala.collection.Iterator[scala.collection.immutable.Range]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[scala.Int]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "last",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "length",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "reverse",
+      "type": "scala.collection.immutable.Range",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "start",
+      "type": "scala.Int",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "step",
+      "type": "scala.Int",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "tail",
+      "type": "scala.collection.immutable.Range",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "tails",
+      "type": "scala.collection.Iterator[scala.collection.immutable.Range]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

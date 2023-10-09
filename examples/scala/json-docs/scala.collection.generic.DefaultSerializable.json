@@ -1,0 +1,27 @@
+{
+  "name": "scala.collection.generic.DefaultSerializable",
+  "type_parameters": [],
+  "implements": [
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.Serializable"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "writeReplace",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.AnyRef",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

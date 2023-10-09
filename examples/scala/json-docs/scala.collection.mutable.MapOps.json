@@ -1,0 +1,466 @@
+{
+  "name": "scala.collection.mutable.MapOps",
+  "type_parameters": [
+    "K",
+    "V",
+    "+CC[X, Y] <: scala.collection.mutable.MapOps[X, Y, CC, _]",
+    "+C <: scala.collection.mutable.MapOps[K, V, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.IterableOps[(K, V), scala.collection.mutable.Iterable, C]",
+    "scala.collection.MapOps[K, V, CC, C]",
+    "scala.collection.mutable.Cloneable[C]",
+    "scala.collection.mutable.Builder[(K, V), C]",
+    "scala.collection.mutable.Growable[(K, V)]",
+    "scala.collection.mutable.Shrinkable[K]"
+  ],
+  "inherits": [
+    "scala.collection.IterableOps[(K, V), scala.collection.mutable.Iterable, C]",
+    "scala.collection.MapOps[K, V, CC, C]",
+    "scala.collection.mutable.Cloneable[C]",
+    "scala.collection.mutable.Builder[(K, V), C]",
+    "scala.collection.mutable.Growable[(K, V)]",
+    "scala.collection.mutable.Shrinkable[K]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "get",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "++",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V2)]"
+      ],
+      "type_parameters": [
+        "V2 >: V"
+      ],
+      "return_type": "CC[K, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addString",
+      "parameters": [
+        "scala.collection.mutable.StringBuilder",
+        "scala.Predef.String",
+        "scala.Predef.String",
+        "scala.Predef.String"
+      ],
+      "type_parameters": [],
+      "return_type": "sb.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "applyOrElse",
+      "parameters": [
+        "K1",
+        "(K1) => V1"
+      ],
+      "type_parameters": [
+        "K1 <: K",
+        "V1 >: V"
+      ],
+      "return_type": "V1",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clone",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[(K, V), (K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V2)]"
+      ],
+      "type_parameters": [
+        "V2 >: V"
+      ],
+      "return_type": "CC[K, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "contains",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "default",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filterInPlace",
+      "parameters": [
+        "(K, V) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.MapOps.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((K, V)) => scala.collection.IterableOnce[(K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachEntry",
+      "parameters": [
+        "(K, V) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrElse",
+      "parameters": [
+        "K",
+        "=> V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "V1",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrElseUpdate",
+      "parameters": [
+        "K",
+        "=> V"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "isDefinedAt",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "keyStepper",
+      "parameters": [
+        "scala.collection.StepperShape[K, S]"
+      ],
+      "type_parameters": [
+        "S <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((K, V)) => (K2, V2)"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "mapFromIterable",
+      "parameters": [
+        "scala.collection.Iterable[(K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "mapValuesInPlace",
+      "parameters": [
+        "(K, V) => V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.mutable.MapOps.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "put",
+      "parameters": [
+        "K",
+        "V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "remove",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "update",
+      "parameters": [
+        "K",
+        "V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updateWith",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "((scala.Option[V]) => scala.Option[V]) => scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "valueStepper",
+      "parameters": [
+        "scala.collection.StepperShape[V, S]"
+      ],
+      "type_parameters": [
+        "S <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "mapFactory",
+      "type": "scala.collection.MapFactory[CC]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keySet",
+      "type": "scala.collection.Set[K]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keys",
+      "type": "scala.collection.Iterable[K]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keysIterator",
+      "type": "scala.collection.Iterator[K]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "values",
+      "type": "scala.collection.Iterable[V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "valuesIterator",
+      "type": "scala.collection.Iterator[V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "view",
+      "type": "scala.collection.MapView[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,136 @@
+{
+  "name": "scala.collection.immutable.ListSet.Node",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.immutable.ListSet[scala.collection.immutable.ListSet.A]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.ListSet[scala.collection.immutable.ListSet.A]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "contains",
+      "parameters": [
+        "scala.collection.immutable.ListSet.A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "excl",
+      "parameters": [
+        "scala.collection.immutable.ListSet.A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.ListSet[scala.collection.immutable.ListSet.A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "incl",
+      "parameters": [
+        "scala.collection.immutable.ListSet.A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.ListSet[scala.collection.immutable.ListSet.A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Node",
+      "parameters": [
+        "scala.collection.immutable.ListSet.A"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "elem",
+      "type": "scala.collection.immutable.ListSet.A",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "init",
+      "type": "scala.collection.immutable.ListSet[scala.collection.immutable.ListSet.A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "last",
+      "type": "scala.collection.immutable.ListSet.A",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "next",
+      "type": "scala.collection.immutable.ListSet[scala.collection.immutable.ListSet.A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "protected",
+  "language": "scala"
+}

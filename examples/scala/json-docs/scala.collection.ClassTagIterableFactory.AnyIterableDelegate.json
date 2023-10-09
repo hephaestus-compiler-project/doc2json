@@ -1,0 +1,148 @@
+{
+  "name": "scala.collection.ClassTagIterableFactory.AnyIterableDelegate",
+  "type_parameters": [
+    "CC[_]"
+  ],
+  "implements": [
+    "scala.collection.IterableFactory[CC]"
+  ],
+  "inherits": [
+    "scala.collection.IterableFactory[CC]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "A*"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(=> A) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "iterate",
+      "parameters": [
+        "A",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((A) => A) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "range",
+      "parameters": [
+        "A",
+        "A",
+        "A"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(scala.Integral[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "range",
+      "parameters": [
+        "A",
+        "A"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(scala.Integral[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tabulate",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((scala.Int) => A) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "unfold",
+      "parameters": [
+        "S"
+      ],
+      "type_parameters": [
+        "A",
+        "S"
+      ],
+      "return_type": "((S) => scala.Option[(A, S)]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "AnyIterableDelegate",
+      "parameters": [
+        "scala.collection.ClassTagIterableFactory[CC]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

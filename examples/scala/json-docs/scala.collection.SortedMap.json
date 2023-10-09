@@ -1,0 +1,67 @@
+{
+  "name": "scala.collection.SortedMap",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.Map[K, V]",
+    "scala.collection.SortedMapOps[K, V, scala.collection.SortedMap, scala.collection.SortedMap[K, V]]",
+    "scala.collection.SortedMapFactoryDefaults[K, V, scala.collection.SortedMap, scala.collection.Iterable, scala.collection.Map]"
+  ],
+  "inherits": [
+    "scala.collection.Map[K, V]",
+    "scala.collection.SortedMapOps[K, V, scala.collection.SortedMap, scala.collection.SortedMap[K, V]]",
+    "scala.collection.SortedMapFactoryDefaults[K, V, scala.collection.SortedMap, scala.collection.Iterable, scala.collection.Map]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "sortedMapFactory",
+      "type": "scala.collection.SortedMapFactory[scala.collection.SortedMap]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "unsorted",
+      "type": "scala.collection.Map[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

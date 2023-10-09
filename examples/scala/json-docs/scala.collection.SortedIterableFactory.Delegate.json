@@ -1,0 +1,89 @@
+{
+  "name": "scala.collection.SortedIterableFactory.Delegate",
+  "type_parameters": [
+    "CC[_]"
+  ],
+  "implements": [
+    "scala.collection.EvidenceIterableFactory.Delegate[CC, scala.Ordering]",
+    "scala.collection.SortedIterableFactory[CC]"
+  ],
+  "inherits": [
+    "scala.collection.EvidenceIterableFactory.Delegate[CC, scala.Ordering]",
+    "scala.collection.SortedIterableFactory[CC]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "A*"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(scala.Ordering[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "empty",
+      "parameters": [
+        "scala.Ordering[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "(scala.Ordering[E]) => CC[E]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "newBuilder",
+      "parameters": [
+        "scala.Ordering[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Builder[A, CC[A]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Delegate",
+      "parameters": [
+        "scala.collection.EvidenceIterableFactory[CC, scala.Ordering]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

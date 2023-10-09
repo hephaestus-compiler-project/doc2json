@@ -1,0 +1,174 @@
+{
+  "name": "scala.collection.mutable.CollisionProofHashMap.RBNode",
+  "type_parameters": [
+    "K",
+    "V"
+  ],
+  "implements": [
+    "scala.collection.mutable.CollisionProofHashMap.Node"
+  ],
+  "inherits": [
+    "scala.collection.mutable.CollisionProofHashMap.Node"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "foreach",
+      "parameters": [
+        "((K, V)) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachEntry",
+      "parameters": [
+        "(K, V) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachNode",
+      "parameters": [
+        "(scala.collection.mutable.CollisionProofHashMap.RBNode[K, V]) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getNode",
+      "parameters": [
+        "K",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "(scala.Ordering[K]) => scala.collection.mutable.CollisionProofHashMap.RBNode[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Predef.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "RBNode",
+      "parameters": [
+        "K",
+        "scala.Int",
+        "V",
+        "scala.Boolean",
+        "scala.collection.mutable.CollisionProofHashMap.RBNode[K, V]",
+        "scala.collection.mutable.CollisionProofHashMap.RBNode[K, V]",
+        "scala.collection.mutable.CollisionProofHashMap.RBNode[K, V]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "hash",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "key",
+      "type": "K",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "left",
+      "type": "scala.collection.mutable.CollisionProofHashMap.RBNode[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "parent",
+      "type": "scala.collection.mutable.CollisionProofHashMap.RBNode[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "red",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "right",
+      "type": "scala.collection.mutable.CollisionProofHashMap.RBNode[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "value",
+      "type": "V",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

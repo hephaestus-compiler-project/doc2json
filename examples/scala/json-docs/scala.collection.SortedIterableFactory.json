@@ -1,0 +1,18 @@
+{
+  "name": "scala.collection.SortedIterableFactory",
+  "type_parameters": [
+    "+CC[_]"
+  ],
+  "implements": [
+    "scala.collection.EvidenceIterableFactory[CC, scala.Ordering]"
+  ],
+  "inherits": [
+    "scala.collection.EvidenceIterableFactory[CC, scala.Ordering]"
+  ],
+  "class_type": 1,
+  "methods": [],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

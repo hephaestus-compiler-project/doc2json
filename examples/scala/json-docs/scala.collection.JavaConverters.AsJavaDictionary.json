@@ -1,0 +1,43 @@
+{
+  "name": "scala.collection.JavaConverters.AsJavaDictionary",
+  "type_parameters": [
+    "K",
+    "V"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "AsJavaDictionary",
+      "parameters": [
+        "scala.collection.mutable.Map[K, V]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "asJavaDictionary",
+      "type": "java.util.Dictionary[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

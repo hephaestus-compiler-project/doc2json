@@ -1,0 +1,89 @@
+{
+  "name": "scala.collection.ClassTagSeqFactory.Delegate",
+  "type_parameters": [
+    "CC[A] <: scala.collection.SeqOps[A, scala.collection.Seq, scala.collection.Seq[A]]"
+  ],
+  "implements": [
+    "scala.collection.ClassTagIterableFactory.Delegate[CC]",
+    "scala.collection.ClassTagSeqFactory[CC]"
+  ],
+  "inherits": [
+    "scala.collection.ClassTagIterableFactory.Delegate[CC]",
+    "scala.collection.ClassTagSeqFactory[CC]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "A*"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(scala.reflect.ClassTag[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "empty",
+      "parameters": [
+        "scala.reflect.ClassTag[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "(scala.reflect.ClassTag[E]) => CC[E]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "newBuilder",
+      "parameters": [
+        "scala.reflect.ClassTag[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Builder[A, CC[A]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Delegate",
+      "parameters": [
+        "scala.collection.ClassTagSeqFactory[CC]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

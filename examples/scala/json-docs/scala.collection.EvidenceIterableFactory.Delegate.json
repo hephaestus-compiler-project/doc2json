@@ -1,0 +1,88 @@
+{
+  "name": "scala.collection.EvidenceIterableFactory.Delegate",
+  "type_parameters": [
+    "CC[_]",
+    "Ev[_]"
+  ],
+  "implements": [
+    "scala.collection.EvidenceIterableFactory[CC, Ev]"
+  ],
+  "inherits": [
+    "scala.collection.EvidenceIterableFactory[CC, Ev]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "A*"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(Ev[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "empty",
+      "parameters": [
+        "Ev[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "(Ev[E]) => CC[E]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "newBuilder",
+      "parameters": [
+        "Ev[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Builder[A, CC[A]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Delegate",
+      "parameters": [
+        "scala.collection.EvidenceIterableFactory[CC, Ev]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

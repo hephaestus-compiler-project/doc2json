@@ -1,0 +1,43 @@
+{
+  "name": "scala.collection.View.Unfold",
+  "type_parameters": [
+    "A",
+    "S"
+  ],
+  "implements": [
+    "scala.collection.AbstractView[A]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractView[A]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "Unfold",
+      "parameters": [
+        "S"
+      ],
+      "type_parameters": [],
+      "return_type": "((S) => scala.Option[(A, S)])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

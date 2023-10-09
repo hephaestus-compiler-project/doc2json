@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.immutable.LazyList.Deferrer",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.AnyVal"
+  ],
+  "inherits": [
+    "scala.AnyVal"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "#::",
+      "parameters": [
+        "=> B"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.immutable.LazyList[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "#:::",
+      "parameters": [
+        "scala.collection.immutable.LazyList[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.immutable.LazyList[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

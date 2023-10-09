@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.mutable.IndexedSeq",
+  "type_parameters": [
+    "T"
+  ],
+  "implements": [
+    "scala.collection.mutable.Seq[T]",
+    "scala.collection.IndexedSeq[T]",
+    "scala.collection.mutable.IndexedSeqOps[T, scala.collection.mutable.IndexedSeq, scala.collection.mutable.IndexedSeq[T]]",
+    "scala.collection.IterableFactoryDefaults[T, scala.collection.mutable.IndexedSeq]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.Seq[T]",
+    "scala.collection.IndexedSeq[T]",
+    "scala.collection.mutable.IndexedSeqOps[T, scala.collection.mutable.IndexedSeq, scala.collection.mutable.IndexedSeq[T]]",
+    "scala.collection.IterableFactoryDefaults[T, scala.collection.mutable.IndexedSeq]"
+  ],
+  "class_type": 1,
+  "methods": [],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.mutable.IndexedSeq]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

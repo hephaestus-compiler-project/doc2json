@@ -1,0 +1,93 @@
+{
+  "name": "scala.collection.convert.StreamExtensions.StreamUnboxer",
+  "type_parameters": [
+    "A",
+    "S"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "java.util.stream.Stream[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "doubleStreamUnboxer",
+      "type": "scala.collection.convert.StreamExtensions.StreamUnboxer[scala.Double, java.util.stream.DoubleStream]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "intStreamUnboxer",
+      "type": "scala.collection.convert.StreamExtensions.StreamUnboxer[scala.Int, java.util.stream.IntStream]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "javaDoubleStreamUnboxer",
+      "type": "scala.collection.convert.StreamExtensions.StreamUnboxer[java.lang.Double, java.util.stream.DoubleStream]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "javaIntegerStreamUnboxer",
+      "type": "scala.collection.convert.StreamExtensions.StreamUnboxer[java.lang.Integer, java.util.stream.IntStream]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "javaLongStreamUnboxer",
+      "type": "scala.collection.convert.StreamExtensions.StreamUnboxer[java.lang.Long, java.util.stream.LongStream]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "longStreamUnboxer",
+      "type": "scala.collection.convert.StreamExtensions.StreamUnboxer[scala.Long, java.util.stream.LongStream]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

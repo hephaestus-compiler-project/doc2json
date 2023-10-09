@@ -1,0 +1,180 @@
+{
+  "name": "scala.collection.EvidenceIterableFactory",
+  "type_parameters": [
+    "+CC[_]",
+    "Ev[_]"
+  ],
+  "implements": [
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.Serializable"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "empty",
+      "parameters": [
+        "Ev[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "(Ev[E]) => CC[E]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "newBuilder",
+      "parameters": [
+        "Ev[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.mutable.Builder[A, CC[A]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "A*"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(Ev[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "evidenceIterableFactory",
+      "parameters": [
+        "Ev[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.Factory[A, CC[A]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(=> A) => (Ev[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "iterate",
+      "parameters": [
+        "A",
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((A) => A) => (Ev[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tabulate",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((scala.Int) => A) => (Ev[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "unfold",
+      "parameters": [
+        "S"
+      ],
+      "type_parameters": [
+        "A",
+        "S"
+      ],
+      "return_type": "((S) => scala.Option[(A, S)]) => (Ev[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toBuildFrom",
+      "parameters": [
+        "scala.collection.EvidenceIterableFactory[CC, Ev]"
+      ],
+      "type_parameters": [
+        "Ev[_]",
+        "A",
+        "CC[_]"
+      ],
+      "return_type": "(Ev[A]) => scala.collection.BuildFrom[scala.Any, A, CC[A]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toFactory",
+      "parameters": [
+        "scala.collection.EvidenceIterableFactory[CC, Ev]"
+      ],
+      "type_parameters": [
+        "Ev[_]",
+        "A",
+        "CC[_]"
+      ],
+      "return_type": "(Ev[A]) => scala.collection.Factory[A, CC[A]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

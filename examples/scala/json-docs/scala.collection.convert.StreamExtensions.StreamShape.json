@@ -1,0 +1,188 @@
+{
+  "name": "scala.collection.convert.StreamExtensions.StreamShape",
+  "type_parameters": [
+    "T",
+    "S <: java.util.stream.BaseStream[_, _]",
+    "St <: scala.collection.Stepper[_]"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "mkStream",
+      "parameters": [
+        "St",
+        "scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "fromStepper",
+      "parameters": [
+        "St",
+        "scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "byteStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[scala.Byte, java.util.stream.IntStream, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "charStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[scala.Char, java.util.stream.IntStream, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "doubleStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[scala.Double, java.util.stream.DoubleStream, scala.collection.DoubleStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "floatStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[scala.Float, java.util.stream.DoubleStream, scala.collection.DoubleStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "intStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[scala.Int, java.util.stream.IntStream, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jByteStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[java.lang.Byte, java.util.stream.IntStream, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jCharacterStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[java.lang.Character, java.util.stream.IntStream, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jDoubleStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[java.lang.Double, java.util.stream.DoubleStream, scala.collection.DoubleStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jFloatStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[java.lang.Float, java.util.stream.DoubleStream, scala.collection.DoubleStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jIntegerStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[java.lang.Integer, java.util.stream.IntStream, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jLongStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[java.lang.Long, java.util.stream.LongStream, scala.collection.LongStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jShortStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[java.lang.Short, java.util.stream.IntStream, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "longStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[scala.Long, java.util.stream.LongStream, scala.collection.LongStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "shortStreamShape",
+      "type": "scala.collection.convert.StreamExtensions.StreamShape[scala.Short, java.util.stream.IntStream, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "scala.collection.LinearSeq",
+  "type_parameters": [
+    "+A"
+  ],
+  "implements": [
+    "scala.collection.Seq[A]",
+    "scala.collection.LinearSeqOps[A, scala.collection.LinearSeq, scala.collection.LinearSeq[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.LinearSeq]"
+  ],
+  "inherits": [
+    "scala.collection.Seq[A]",
+    "scala.collection.LinearSeqOps[A, scala.collection.LinearSeq, scala.collection.LinearSeq[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.LinearSeq]"
+  ],
+  "class_type": 1,
+  "methods": [],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.LinearSeq]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "scala.collection.SpecificIterableFactory",
+  "type_parameters": [
+    "-A",
+    "+C"
+  ],
+  "implements": [
+    "scala.collection.Factory[A, C]"
+  ],
+  "inherits": [
+    "scala.collection.Factory[A, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "A*"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "(=> A) => C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "empty",
+      "type": "C",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newBuilder",
+      "type": "scala.collection.mutable.Builder[A, C]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "specificIterableFactory",
+      "type": "scala.collection.Factory[A, C]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

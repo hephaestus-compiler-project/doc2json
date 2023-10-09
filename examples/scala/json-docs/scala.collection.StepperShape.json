@@ -1,0 +1,275 @@
+{
+  "name": "scala.collection.StepperShape",
+  "type_parameters": [
+    "-T",
+    "S <: scala.collection.Stepper[_]"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "parUnbox",
+      "parameters": [
+        "scala.collection.AnyStepper[T] with scala.collection.Stepper.EfficientSplit"
+      ],
+      "type_parameters": [],
+      "return_type": "S with scala.collection.Stepper.EfficientSplit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "seqUnbox",
+      "parameters": [
+        "scala.collection.AnyStepper[T]"
+      ],
+      "type_parameters": [],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "shape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "ByteShape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "CharShape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "DoubleShape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "FloatShape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "IntShape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "LongShape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "ReferenceShape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "ShortShape",
+      "type": "scala.collection.StepperShape.Shape",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "byteStepperShape",
+      "type": "scala.collection.StepperShape[scala.Byte, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "charStepperShape",
+      "type": "scala.collection.StepperShape[scala.Char, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "doubleStepperShape",
+      "type": "scala.collection.StepperShape[scala.Double, scala.collection.DoubleStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "floatStepperShape",
+      "type": "scala.collection.StepperShape[scala.Float, scala.collection.DoubleStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "intStepperShape",
+      "type": "scala.collection.StepperShape[scala.Int, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jByteStepperShape",
+      "type": "scala.collection.StepperShape[java.lang.Byte, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jCharacterStepperShape",
+      "type": "scala.collection.StepperShape[java.lang.Character, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jDoubleStepperShape",
+      "type": "scala.collection.StepperShape[java.lang.Double, scala.collection.DoubleStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jFloatStepperShape",
+      "type": "scala.collection.StepperShape[java.lang.Float, scala.collection.DoubleStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jIntegerStepperShape",
+      "type": "scala.collection.StepperShape[java.lang.Integer, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jLongStepperShape",
+      "type": "scala.collection.StepperShape[java.lang.Long, scala.collection.LongStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "jShortStepperShape",
+      "type": "scala.collection.StepperShape[java.lang.Short, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "longStepperShape",
+      "type": "scala.collection.StepperShape[scala.Long, scala.collection.LongStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "shortStepperShape",
+      "type": "scala.collection.StepperShape[scala.Short, scala.collection.IntStepper]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

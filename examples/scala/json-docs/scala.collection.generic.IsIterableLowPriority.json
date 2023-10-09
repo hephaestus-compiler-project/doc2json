@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.generic.IsIterableLowPriority",
+  "type_parameters": [],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "isMapLikeIsIterable",
+      "parameters": [
+        "scala.collection.generic.IsMap[scala.collection.generic.IsIterableLowPriority.isMapLikeIsIterable.Repr]"
+      ],
+      "type_parameters": [
+        "Repr"
+      ],
+      "return_type": "scala.collection.generic.IsIterable[scala.collection.generic.IsIterableLowPriority.isMapLikeIsIterable.Repr] { ... /* 2 definitions in type refinement */ }",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "isSeqLikeIsIterable",
+      "parameters": [
+        "scala.collection.generic.IsSeq[scala.collection.generic.IsIterableLowPriority.isSeqLikeIsIterable.Repr]"
+      ],
+      "type_parameters": [
+        "Repr"
+      ],
+      "return_type": "scala.collection.generic.IsIterable[scala.collection.generic.IsIterableLowPriority.isSeqLikeIsIterable.Repr] { ... /* 2 definitions in type refinement */ }",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

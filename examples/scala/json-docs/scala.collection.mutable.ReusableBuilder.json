@@ -1,0 +1,40 @@
+{
+  "name": "scala.collection.mutable.ReusableBuilder",
+  "type_parameters": [
+    "-Elem",
+    "+To"
+  ],
+  "implements": [
+    "scala.collection.mutable.Builder[scala.collection.mutable.ReusableBuilder.Elem, To]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.Builder[scala.collection.mutable.ReusableBuilder.Elem, To]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "To",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

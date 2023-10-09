@@ -1,0 +1,27 @@
+{
+  "name": "scala.collection.DoubleStepper",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.Stepper[scala.Double]"
+  ],
+  "inherits": [
+    "scala.collection.Stepper[scala.Double]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "trySplit",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.DoubleStepper",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

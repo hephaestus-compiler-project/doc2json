@@ -1,0 +1,111 @@
+{
+  "name": "scala.collection.immutable.BitSet.BitSet2",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.immutable.BitSet"
+  ],
+  "inherits": [
+    "scala.collection.immutable.BitSet"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "diff",
+      "parameters": [
+        "scala.collection.Set[scala.Int]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filterImpl",
+      "parameters": [
+        "(scala.Int) => scala.Boolean",
+        "scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updateWord",
+      "parameters": [
+        "scala.Int",
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "word",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Long",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "BitSet2",
+      "parameters": [
+        "scala.Long",
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "elems0",
+      "type": "scala.Long",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "elems1",
+      "type": "scala.Long",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "nwords",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,434 @@
+{
+  "name": "scala.collection.immutable.Stream",
+  "type_parameters": [
+    "+A"
+  ],
+  "implements": [
+    "scala.collection.immutable.AbstractSeq[A]",
+    "scala.collection.immutable.LinearSeq[A]",
+    "scala.collection.immutable.LinearSeqOps[A, scala.collection.immutable.Stream, scala.collection.immutable.Stream[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.immutable.Stream]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.immutable.AbstractSeq[A]",
+    "scala.collection.immutable.LinearSeq[A]",
+    "scala.collection.immutable.LinearSeqOps[A, scala.collection.immutable.Stream, scala.collection.immutable.Stream[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.immutable.Stream]",
+    "scala.Serializable"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "addString",
+      "parameters": [
+        "scala.collection.mutable.StringBuilder",
+        "scala.Predef.String",
+        "scala.Predef.String",
+        "scala.Predef.String"
+      ],
+      "type_parameters": [],
+      "return_type": "sb.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[A, B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.collection.immutable.Stream[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collectFirst",
+      "parameters": [
+        "scala.PartialFunction[A, B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.Option[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filter",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Stream[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filterNot",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Stream[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "find",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(A) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.collection.immutable.Stream[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foldLeft",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "((B, A) => B) => B",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "(A) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "lazyAppendedAll",
+      "parameters": [
+        "=> scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.immutable.Stream[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(A) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.collection.immutable.Stream[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "partition",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "(scala.collection.immutable.Stream[A], scala.collection.immutable.Stream[A])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "prepended",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "scala.collection.immutable.Stream[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "reduceLeft",
+      "parameters": [
+        "(B, A) => B"
+      ],
+      "type_parameters": [
+        "B >: A"
+      ],
+      "return_type": "B",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "scanLeft",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "((B, A) => B) => scala.collection.immutable.Stream[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "take",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Stream[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "withFilter",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.WithFilter[A, scala.collection.immutable.Stream]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "writeReplace",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.AnyRef",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "zip",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.collection.immutable.Stream[(A, B)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "continually",
+      "parameters": [
+        "=> A"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.immutable.Stream[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Stream[scala.Int]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.Int",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Stream[scala.Int]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.immutable.Stream[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromIterator",
+      "parameters": [
+        "scala.collection.Iterator[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.immutable.Stream[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "iterate",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((A) => A) => scala.collection.immutable.Stream[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toDeferrer",
+      "parameters": [
+        "=> scala.collection.immutable.Stream[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.immutable.Stream.Deferrer[A]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "force",
+      "type": "scala.collection.immutable.Stream.this.type",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "tailDefined",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "className",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.immutable.Stream]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "zipWithIndex",
+      "type": "scala.collection.immutable.Stream[(A, scala.Int)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

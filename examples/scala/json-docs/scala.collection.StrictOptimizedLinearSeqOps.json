@@ -1,0 +1,58 @@
+{
+  "name": "scala.collection.StrictOptimizedLinearSeqOps",
+  "type_parameters": [
+    "+A",
+    "+CC[X] <: scala.collection.LinearSeq[X]",
+    "+C <: scala.collection.LinearSeq[A] with scala.collection.StrictOptimizedLinearSeqOps[A, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.LinearSeqOps[A, CC, C]",
+    "scala.collection.StrictOptimizedSeqOps[A, CC, C]"
+  ],
+  "inherits": [
+    "scala.collection.LinearSeqOps[A, CC, C]",
+    "scala.collection.StrictOptimizedSeqOps[A, CC, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "drop",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "dropWhile",
+      "parameters": [
+        "(A) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "scala.collection.Set",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.Iterable[A]",
+    "scala.collection.SetOps[A, scala.collection.Set, scala.collection.Set[A]]",
+    "scala.Equals",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.Set]"
+  ],
+  "inherits": [
+    "scala.collection.Iterable[A]",
+    "scala.collection.SetOps[A, scala.collection.Set, scala.collection.Set[A]]",
+    "scala.Equals",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.Set]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "canEqual",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "hashCode",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.IterableFactory[scala.collection.Set]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

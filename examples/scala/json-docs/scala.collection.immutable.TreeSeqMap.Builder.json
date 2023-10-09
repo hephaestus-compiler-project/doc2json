@@ -1,0 +1,129 @@
+{
+  "name": "scala.collection.immutable.TreeSeqMap.Builder",
+  "type_parameters": [
+    "K",
+    "V"
+  ],
+  "implements": [
+    "scala.collection.mutable.Builder[(K, V), scala.collection.immutable.TreeSeqMap[K, V]]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.Builder[(K, V), scala.collection.immutable.TreeSeqMap[K, V]]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "addOne",
+      "parameters": [
+        "K",
+        "V"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeSeqMap.Builder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "addOne",
+      "parameters": [
+        "(K, V)"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeSeqMap.Builder.this.type",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "mapResult",
+      "parameters": [
+        "(scala.collection.immutable.TreeSeqMap[K, V]) => scala.collection.mutable.Builder.mapResult.NewTo"
+      ],
+      "type_parameters": [
+        "NewTo"
+      ],
+      "return_type": "scala.collection.mutable.Builder[(K, V), scala.collection.mutable.Builder.mapResult.NewTo]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeSeqMap[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sizeHint",
+      "parameters": [
+        "scala.collection.IterableOnce[_]",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sizeHint",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sizeHintBounded",
+      "parameters": [
+        "scala.Int",
+        "scala.collection.Iterable[_]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Builder",
+      "parameters": [
+        "scala.collection.immutable.TreeSeqMap.OrderBy"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

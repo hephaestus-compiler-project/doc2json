@@ -1,0 +1,45 @@
+{
+  "name": "scala.collection.View.RightPartitionMapped",
+  "type_parameters": [
+    "A",
+    "A1",
+    "A2"
+  ],
+  "implements": [
+    "scala.collection.AbstractView[A2]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractView[A2]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "RightPartitionMapped",
+      "parameters": [
+        "scala.collection.View.SomeIterableOps[A]",
+        "(A) => scala.Either[A1, A2]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterator",
+      "type": "scala.collection.AbstractIterator[A2]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

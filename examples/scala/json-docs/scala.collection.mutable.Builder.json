@@ -1,0 +1,92 @@
+{
+  "name": "scala.collection.mutable.Builder",
+  "type_parameters": [
+    "-A",
+    "+To"
+  ],
+  "implements": [
+    "scala.collection.mutable.Growable[A]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.Growable[A]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "To",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "mapResult",
+      "parameters": [
+        "(To) => scala.collection.mutable.Builder.mapResult.NewTo"
+      ],
+      "type_parameters": [
+        "NewTo"
+      ],
+      "return_type": "scala.collection.mutable.Builder[A, scala.collection.mutable.Builder.mapResult.NewTo]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sizeHint",
+      "parameters": [
+        "scala.collection.IterableOnce[_]",
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sizeHint",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sizeHintBounded",
+      "parameters": [
+        "scala.Int",
+        "scala.collection.Iterable[_]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "scala.collection.MapView.MapValues",
+  "type_parameters": [
+    "K",
+    "+V",
+    "+W"
+  ],
+  "implements": [
+    "scala.collection.AbstractMapView[K, W]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractMapView[K, W]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "get",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[W]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "MapValues",
+      "parameters": [
+        "scala.collection.MapView.SomeMapOps[K, V]",
+        "(V) => W"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[(K, W)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

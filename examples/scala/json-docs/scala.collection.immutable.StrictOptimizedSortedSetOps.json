@@ -1,0 +1,81 @@
+{
+  "name": "scala.collection.immutable.StrictOptimizedSortedSetOps",
+  "type_parameters": [
+    "A",
+    "+CC[X] <: scala.collection.immutable.SortedSet[X]",
+    "+C <: scala.collection.immutable.SortedSetOps[A, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.immutable.SortedSetOps[A, CC, C]",
+    "scala.collection.StrictOptimizedSortedSetOps[A, CC, C]",
+    "scala.collection.immutable.StrictOptimizedSetOps[A, scala.collection.immutable.Set, C]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.SortedSetOps[A, CC, C]",
+    "scala.collection.StrictOptimizedSortedSetOps[A, CC, C]",
+    "scala.collection.immutable.StrictOptimizedSetOps[A, scala.collection.immutable.Set, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[A, B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(A) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(A) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => CC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "zip",
+      "parameters": [
+        "scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[(A, B)]) => CC[(A, B)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

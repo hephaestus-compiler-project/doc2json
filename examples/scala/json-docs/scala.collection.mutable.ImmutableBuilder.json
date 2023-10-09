@@ -1,0 +1,61 @@
+{
+  "name": "scala.collection.mutable.ImmutableBuilder",
+  "type_parameters": [
+    "-A",
+    "C <: scala.collection.IterableOnce[_]"
+  ],
+  "implements": [
+    "scala.collection.mutable.ReusableBuilder[A, C]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.ReusableBuilder[A, C]"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "clear",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "result",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "elems",
+      "type": "C",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

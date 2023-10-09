@@ -1,0 +1,66 @@
+{
+  "name": "scala.collection.generic.IsSeq",
+  "type_parameters": [
+    "Repr"
+  ],
+  "implements": [
+    "scala.collection.generic.IsIterable[scala.collection.generic.IsSeq.Repr]"
+  ],
+  "inherits": [
+    "scala.collection.generic.IsIterable[scala.collection.generic.IsSeq.Repr]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.collection.generic.IsSeq.Repr"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.SeqOps[scala.collection.generic.IsSeq.A, scala.collection.Iterable, scala.collection.generic.IsSeq.C]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "arrayIsSeq",
+      "parameters": [
+        "scala.reflect.ClassTag[A0]"
+      ],
+      "type_parameters": [
+        "A0"
+      ],
+      "return_type": "scala.collection.generic.IsSeq[scala.Array[A0]] { ... /* 2 definitions in type refinement */ }",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "stringIsSeq",
+      "type": "scala.collection.generic.IsSeq[scala.Predef.String] { ... /* 2 definitions in type refinement */ }",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "stringViewIsSeq",
+      "type": "scala.collection.generic.IsSeq[scala.collection.StringView] { ... /* 2 definitions in type refinement */ }",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

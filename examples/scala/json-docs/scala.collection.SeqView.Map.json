@@ -1,0 +1,78 @@
+{
+  "name": "scala.collection.SeqView.Map",
+  "type_parameters": [
+    "+A",
+    "+B"
+  ],
+  "implements": [
+    "scala.collection.View.Map[A, B]",
+    "scala.collection.SeqView[B]"
+  ],
+  "inherits": [
+    "scala.collection.View.Map[A, B]",
+    "scala.collection.SeqView[B]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "B",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Map",
+      "parameters": [
+        "scala.collection.SeqView.SomeSeqOps[A]",
+        "(A) => B"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[B]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "length",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "scala.collection.SortedMapFactoryDefaults",
+  "type_parameters": [
+    "K",
+    "+V",
+    "+CC[x, y] <: scala.collection.Map[x, y] with scala.collection.SortedMapOps[x, y, CC, CC[x, y]] with scala.collection.SortedMapFactoryDefaults.UnsortedCC[x, y]",
+    "+WithFilterCC[x] <: scala.collection.IterableOps[x, scala.collection.SortedMapFactoryDefaults.WithFilterCC, scala.collection.SortedMapFactoryDefaults.WithFilterCC[x]] with scala.collection.Iterable[x]",
+    "+UnsortedCC[x, y] <: scala.collection.Map[x, y]"
+  ],
+  "implements": [
+    "scala.collection.SortedMapOps[K, V, CC, CC[K, V]]",
+    "scala.collection.MapOps[K, V, scala.collection.SortedMapFactoryDefaults.UnsortedCC, CC[K, V]]"
+  ],
+  "inherits": [
+    "scala.collection.SortedMapOps[K, V, CC, CC[K, V]]",
+    "scala.collection.MapOps[K, V, scala.collection.SortedMapFactoryDefaults.UnsortedCC, CC[K, V]]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [],
+      "return_type": "CC[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "withFilter",
+      "parameters": [
+        "((K, V)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.SortedMapOps.WithFilter[K, V, scala.collection.SortedMapFactoryDefaults.WithFilterCC, scala.collection.SortedMapFactoryDefaults.UnsortedCC, CC]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "empty",
+      "type": "CC[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[(K, V), CC[K, V]]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

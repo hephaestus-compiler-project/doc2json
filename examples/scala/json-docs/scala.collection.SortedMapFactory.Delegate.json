@@ -1,0 +1,91 @@
+{
+  "name": "scala.collection.SortedMapFactory.Delegate",
+  "type_parameters": [
+    "CC[_, _]"
+  ],
+  "implements": [
+    "scala.collection.SortedMapFactory[CC]"
+  ],
+  "inherits": [
+    "scala.collection.SortedMapFactory[CC]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "apply",
+      "parameters": [
+        "(K, V)*"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "(scala.Ordering[K]) => CC[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "empty",
+      "parameters": [
+        "scala.Ordering[K]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "CC[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "(scala.Ordering[K]) => CC[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "newBuilder",
+      "parameters": [
+        "scala.Ordering[K]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.mutable.Builder[(K, V), CC[K, V]]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "Delegate",
+      "parameters": [
+        "scala.collection.SortedMapFactory[CC]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

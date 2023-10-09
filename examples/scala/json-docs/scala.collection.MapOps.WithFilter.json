@@ -1,0 +1,132 @@
+{
+  "name": "scala.collection.MapOps.WithFilter",
+  "type_parameters": [
+    "K",
+    "+V",
+    "+IterableCC[_]",
+    "+CC[_, _] <: scala.collection.IterableOps[_, scala.collection.AnyConstr, _]"
+  ],
+  "implements": [
+    "scala.collection.IterableOps.WithFilter[(K, V), scala.collection.MapOps.WithFilter.IterableCC]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.IterableOps.WithFilter[(K, V), scala.collection.MapOps.WithFilter.IterableCC]",
+    "scala.Serializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((K, V)) => scala.collection.IterableOnce[(K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((K, V)) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.collection.MapOps.WithFilter.IterableCC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "((K, V)) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((K, V)) => (K2, V2)"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((K, V)) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "scala.collection.MapOps.WithFilter.IterableCC[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "withFilter",
+      "parameters": [
+        "((K, V)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.MapOps.WithFilter[K, V, scala.collection.MapOps.WithFilter.IterableCC, CC]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "WithFilter",
+      "parameters": [
+        "scala.collection.MapOps[K, V, CC, _] with scala.collection.IterableOps[(K, V), scala.collection.MapOps.WithFilter.IterableCC, _]",
+        "((K, V)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "filtered",
+      "type": "scala.collection.Iterable[(K, V)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

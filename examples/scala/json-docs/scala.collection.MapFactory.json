@@ -1,0 +1,81 @@
+{
+  "name": "scala.collection.MapFactory",
+  "type_parameters": [
+    "+CC[_, _]"
+  ],
+  "implements": [
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.Serializable"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "CC[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "(K, V)*"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "CC[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toBuildFrom",
+      "parameters": [
+        "scala.collection.MapFactory[CC]"
+      ],
+      "type_parameters": [
+        "K",
+        "V",
+        "CC[_, _]"
+      ],
+      "return_type": "scala.collection.BuildFrom[scala.Any, (K, V), CC[K, V]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toFactory",
+      "parameters": [
+        "scala.collection.MapFactory[CC]"
+      ],
+      "type_parameters": [
+        "K",
+        "V",
+        "CC[_, _]"
+      ],
+      "return_type": "scala.collection.Factory[(K, V), CC[K, V]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

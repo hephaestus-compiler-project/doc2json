@@ -1,0 +1,82 @@
+{
+  "name": "scala.collection.immutable.SortedSet",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.immutable.Set[A]",
+    "scala.collection.SortedSet[A]",
+    "scala.collection.immutable.SortedSetOps[A, scala.collection.immutable.SortedSet, scala.collection.immutable.SortedSet[A]]",
+    "scala.collection.SortedSetFactoryDefaults[A, scala.collection.immutable.SortedSet, scala.collection.immutable.Set]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.Set[A]",
+    "scala.collection.SortedSet[A]",
+    "scala.collection.immutable.SortedSetOps[A, scala.collection.immutable.SortedSet, scala.collection.immutable.SortedSet[A]]",
+    "scala.collection.SortedSetFactoryDefaults[A, scala.collection.immutable.SortedSet, scala.collection.immutable.Set]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "(scala.Ordering[E]) => scala.collection.immutable.SortedSet[E]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "sortedIterableFactory",
+      "type": "scala.collection.SortedIterableFactory[scala.collection.immutable.SortedSet]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "unsorted",
+      "type": "scala.collection.immutable.Set[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

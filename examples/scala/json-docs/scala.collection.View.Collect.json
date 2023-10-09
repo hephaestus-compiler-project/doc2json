@@ -1,0 +1,44 @@
+{
+  "name": "scala.collection.View.Collect",
+  "type_parameters": [
+    "+A",
+    "B"
+  ],
+  "implements": [
+    "scala.collection.AbstractView[B]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractView[B]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "Collect",
+      "parameters": [
+        "scala.collection.View.SomeIterableOps[A]",
+        "scala.PartialFunction[A, B]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[B]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

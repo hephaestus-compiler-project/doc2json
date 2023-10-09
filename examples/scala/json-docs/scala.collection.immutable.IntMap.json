@@ -1,0 +1,560 @@
+{
+  "name": "scala.collection.immutable.IntMap",
+  "type_parameters": [
+    "+T"
+  ],
+  "implements": [
+    "scala.collection.immutable.AbstractMap[immutable.IntMapUtils.Int, T]",
+    "scala.collection.immutable.StrictOptimizedMapOps[immutable.IntMapUtils.Int, T, scala.collection.immutable.Map, scala.collection.immutable.IntMap[T]]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.immutable.AbstractMap[immutable.IntMapUtils.Int, T]",
+    "scala.collection.immutable.StrictOptimizedMapOps[immutable.IntMapUtils.Int, T, scala.collection.immutable.Map, scala.collection.immutable.IntMap[T]]",
+    "scala.Serializable"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "+",
+      "parameters": [
+        "(IntMapUtils.Int, S)"
+      ],
+      "type_parameters": [
+        "S >: T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "++",
+      "parameters": [
+        "scala.collection.immutable.IntMap[S]"
+      ],
+      "type_parameters": [
+        "S >: T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "++",
+      "parameters": [
+        "scala.collection.IterableOnce[(IntMapUtils.Int, V1)]"
+      ],
+      "type_parameters": [
+        "V1 >: T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[(IntMapUtils.Int, T), (IntMapUtils.Int, V2)]"
+      ],
+      "type_parameters": [
+        "V2"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(IntMapUtils.Int, V1)]"
+      ],
+      "type_parameters": [
+        "V1 >: T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filter",
+      "parameters": [
+        "((IntMapUtils.Int, T)) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.IntMap[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((IntMapUtils.Int, T)) => scala.collection.IterableOnce[(IntMapUtils.Int, V2)]"
+      ],
+      "type_parameters": [
+        "V2"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "((IntMapUtils.Int, T)) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachEntry",
+      "parameters": [
+        "(IntMapUtils.Int, T) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachKey",
+      "parameters": [
+        "(IntMapUtils.Int) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreachValue",
+      "parameters": [
+        "(T) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[(IntMapUtils.Int, T)]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.IntMap[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "get",
+      "parameters": [
+        "IntMapUtils.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "getOrElse",
+      "parameters": [
+        "IntMapUtils.Int",
+        "=> S"
+      ],
+      "type_parameters": [
+        "S >: T"
+      ],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "intMapFrom",
+      "parameters": [
+        "scala.collection.IterableOnce[(IntMapUtils.Int, V2)]"
+      ],
+      "type_parameters": [
+        "V2"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "intersection",
+      "parameters": [
+        "scala.collection.immutable.IntMap[R]"
+      ],
+      "type_parameters": [
+        "R"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "intersectionWith",
+      "parameters": [
+        "scala.collection.immutable.IntMap[S]",
+        "(IntMapUtils.Int, T, S) => R"
+      ],
+      "type_parameters": [
+        "S",
+        "R"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[R]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((IntMapUtils.Int, T)) => (IntMapUtils.Int, V2)"
+      ],
+      "type_parameters": [
+        "V2"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "modifyOrRemove",
+      "parameters": [
+        "(IntMapUtils.Int, T) => scala.Option[S]"
+      ],
+      "type_parameters": [
+        "S"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "removed",
+      "parameters": [
+        "IntMapUtils.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.IntMap[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "transform",
+      "parameters": [
+        "(IntMapUtils.Int, T) => S"
+      ],
+      "type_parameters": [
+        "S"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "unionWith",
+      "parameters": [
+        "scala.collection.immutable.IntMap[S]",
+        "(IntMapUtils.Int, S, S) => S"
+      ],
+      "type_parameters": [
+        "S >: T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updateWith",
+      "parameters": [
+        "IntMapUtils.Int",
+        "S",
+        "(T, S) => S"
+      ],
+      "type_parameters": [
+        "S >: T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updated",
+      "parameters": [
+        "IntMapUtils.Int",
+        "S"
+      ],
+      "type_parameters": [
+        "S >: T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "writeReplace",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.AnyRef",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "(IntMapUtils.Int, T)*"
+      ],
+      "type_parameters": [
+        "T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[T]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(IntMapUtils.Int, V)]"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "singleton",
+      "parameters": [
+        "IntMapUtils.Int",
+        "T"
+      ],
+      "type_parameters": [
+        "T"
+      ],
+      "return_type": "scala.collection.immutable.IntMap[T]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toBuildFrom",
+      "parameters": [
+        "scala.collection.immutable.IntMap.type"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.BuildFrom[scala.Any, (IntMapUtils.Int, V), scala.collection.immutable.IntMap[V]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toFactory",
+      "parameters": [
+        "scala.collection.immutable.IntMap.type"
+      ],
+      "type_parameters": [
+        "V"
+      ],
+      "return_type": "scala.collection.Factory[(IntMapUtils.Int, V), scala.collection.immutable.IntMap[V]]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "className",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.immutable.IntMap[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "firstKey",
+      "type": "IntMapUtils.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[(IntMapUtils.Int, T)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "keysIterator",
+      "type": "scala.collection.Iterator[IntMapUtils.Int]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "IntMapUtils.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "lastKey",
+      "type": "IntMapUtils.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[(IntMapUtils.Int, T), scala.collection.immutable.IntMap[T]]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "size",
+      "type": "IntMapUtils.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "toList",
+      "type": "scala.collection.immutable.List[(IntMapUtils.Int, T)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "valuesIterator",
+      "type": "scala.collection.Iterator[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

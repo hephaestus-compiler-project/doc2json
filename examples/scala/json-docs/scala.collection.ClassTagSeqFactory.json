@@ -1,0 +1,33 @@
+{
+  "name": "scala.collection.ClassTagSeqFactory",
+  "type_parameters": [
+    "+CC[A] <: scala.collection.SeqOps[A, scala.collection.Seq, scala.collection.Seq[A]]"
+  ],
+  "implements": [
+    "scala.collection.ClassTagIterableFactory[CC]"
+  ],
+  "inherits": [
+    "scala.collection.ClassTagIterableFactory[CC]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "unapplySeq",
+      "parameters": [
+        "CC[A]"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "scala.collection.SeqFactory.UnapplySeqWrapper[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

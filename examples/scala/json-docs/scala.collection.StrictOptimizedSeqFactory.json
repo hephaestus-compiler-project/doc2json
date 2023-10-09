@@ -1,0 +1,61 @@
+{
+  "name": "scala.collection.StrictOptimizedSeqFactory",
+  "type_parameters": [
+    "+CC[A] <: scala.collection.SeqOps[A, scala.collection.Seq, scala.collection.Seq[A]]"
+  ],
+  "implements": [
+    "scala.collection.SeqFactory[CC]"
+  ],
+  "inherits": [
+    "scala.collection.SeqFactory[CC]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.Iterable[A]*"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(=> A) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tabulate",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((scala.Int) => A) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

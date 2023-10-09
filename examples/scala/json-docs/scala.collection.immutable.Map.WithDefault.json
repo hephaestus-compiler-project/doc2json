@@ -1,0 +1,195 @@
+{
+  "name": "scala.collection.immutable.Map.WithDefault",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.immutable.AbstractMap[K, V]",
+    "scala.collection.immutable.MapOps[K, V, scala.collection.immutable.Map, scala.collection.immutable.Map.WithDefault[K, V]]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.immutable.AbstractMap[K, V]",
+    "scala.collection.immutable.MapOps[K, V, scala.collection.immutable.Map, scala.collection.immutable.Map.WithDefault[K, V]]",
+    "scala.Serializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V2)]"
+      ],
+      "type_parameters": [
+        "V2 >: V"
+      ],
+      "return_type": "scala.collection.immutable.Map.WithDefault[K, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "default",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "V",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Map.WithDefault[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "get",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Option[V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "removed",
+      "parameters": [
+        "K"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.Map.WithDefault[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updated",
+      "parameters": [
+        "K",
+        "V1"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "scala.collection.immutable.Map.WithDefault[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "WithDefault",
+      "parameters": [
+        "scala.collection.immutable.Map[K, V]",
+        "(K) => V"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "defaultValue",
+      "type": "(K) => V",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.immutable.Map.WithDefault[K, V]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.IterableFactory[scala.collection.immutable.Iterable]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[(K, V)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "mapFactory",
+      "type": "scala.collection.MapFactory[scala.collection.immutable.Map]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[(K, V), scala.collection.immutable.Map.WithDefault[K, V]]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "underlying",
+      "type": "scala.collection.immutable.Map[K, V]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

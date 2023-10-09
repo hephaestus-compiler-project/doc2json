@@ -1,0 +1,67 @@
+{
+  "name": "scala.collection.immutable.::",
+  "type_parameters": [
+    "+A"
+  ],
+  "implements": [
+    "scala.collection.immutable.List[A]",
+    "scala.Product",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.immutable.List[A]",
+    "scala.Product",
+    "scala.Serializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "::",
+      "parameters": [
+        "A",
+        "scala.collection.immutable.List[A]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "head",
+      "type": "A",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "headOption",
+      "type": "scala.Some[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "tail",
+      "type": "scala.collection.immutable.List[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "scala.collection.MapOps.KeySet",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.AbstractSet[scala.collection.MapOps.K]",
+    "scala.collection.MapOps.GenKeySet",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "inherits": [
+    "scala.collection.AbstractSet[scala.collection.MapOps.K]",
+    "scala.collection.MapOps.GenKeySet",
+    "scala.collection.generic.DefaultSerializable"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "diff",
+      "parameters": [
+        "scala.collection.Set[scala.collection.MapOps.K]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.Set[scala.collection.MapOps.K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "KeySet",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "protected",
+  "language": "scala"
+}

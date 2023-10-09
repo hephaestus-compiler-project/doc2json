@@ -1,0 +1,90 @@
+{
+  "name": "scala.collection.mutable.Seq",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.mutable.Iterable[A]",
+    "scala.collection.Seq[A]",
+    "scala.collection.mutable.SeqOps[A, scala.collection.mutable.Seq, scala.collection.mutable.Seq[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.mutable.Seq]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.Iterable[A]",
+    "scala.collection.Seq[A]",
+    "scala.collection.mutable.SeqOps[A, scala.collection.mutable.Seq, scala.collection.mutable.Seq[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.mutable.Seq]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "canEqual",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "hashCode",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Predef.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.mutable.Seq]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

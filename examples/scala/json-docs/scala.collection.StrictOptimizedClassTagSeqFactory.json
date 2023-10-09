@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.StrictOptimizedClassTagSeqFactory",
+  "type_parameters": [
+    "+CC[A] <: scala.collection.SeqOps[A, scala.collection.Seq, scala.collection.Seq[A]]"
+  ],
+  "implements": [
+    "scala.collection.ClassTagSeqFactory[CC]"
+  ],
+  "inherits": [
+    "scala.collection.ClassTagSeqFactory[CC]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "fill",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "(=> A) => (scala.reflect.ClassTag[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "tabulate",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [
+        "A"
+      ],
+      "return_type": "((scala.Int) => A) => (scala.reflect.ClassTag[A]) => CC[A]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

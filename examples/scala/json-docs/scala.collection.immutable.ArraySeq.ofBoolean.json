@@ -1,0 +1,175 @@
+{
+  "name": "scala.collection.immutable.ArraySeq.ofBoolean",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.immutable.ArraySeq[scala.Boolean]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.ArraySeq[scala.Boolean]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "appended",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B >: scala.Boolean"
+      ],
+      "return_type": "scala.collection.immutable.ArraySeq[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "hashCode",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Int",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "prepended",
+      "parameters": [
+        "B"
+      ],
+      "type_parameters": [
+        "B >: scala.Boolean"
+      ],
+      "return_type": "scala.collection.immutable.ArraySeq[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "sorted",
+      "parameters": [
+        "scala.Ordering[B]"
+      ],
+      "type_parameters": [
+        "B >: scala.Boolean"
+      ],
+      "return_type": "scala.collection.immutable.ArraySeq[scala.Boolean]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "stepper",
+      "parameters": [
+        "scala.collection.StepperShape[scala.Boolean, S]"
+      ],
+      "type_parameters": [
+        "S <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S with scala.collection.Stepper.EfficientSplit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "updated",
+      "parameters": [
+        "scala.Int",
+        "B"
+      ],
+      "type_parameters": [
+        "B >: scala.Boolean"
+      ],
+      "return_type": "scala.collection.immutable.ArraySeq[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "ofBoolean",
+      "parameters": [
+        "scala.Array[scala.Boolean]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "elemTag",
+      "type": "scala.reflect.ManifestFactory.BooleanManifest",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[scala.Boolean]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "length",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "unsafeArray",
+      "type": "scala.Array[scala.Boolean]",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

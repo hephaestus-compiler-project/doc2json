@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.MapViewFactory",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.MapFactory[[X, Y]scala.collection.View[(scala.collection.<refinement>.l.<local l>.X, scala.collection.<refinement>.l.<local l>.Y)]]"
+  ],
+  "inherits": [
+    "scala.collection.MapFactory[[X, Y]scala.collection.View[(scala.collection.<refinement>.l.<local l>.X, scala.collection.<refinement>.l.<local l>.Y)]]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.MapView.SomeMapOps[K, V]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.MapView[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "apply",
+      "parameters": [
+        "(K, V)*"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.MapView[K, V]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

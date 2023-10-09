@@ -1,0 +1,132 @@
+{
+  "name": "scala.collection.LazyZip4",
+  "type_parameters": [
+    "+El1",
+    "+El2",
+    "+El3",
+    "+El4",
+    "C1"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "exists",
+      "parameters": [
+        "(El1, El2, El3, El4) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "filter",
+      "parameters": [
+        "(El1, El2, El3, El4) => scala.Boolean"
+      ],
+      "type_parameters": [
+        "C"
+      ],
+      "return_type": "(scala.collection.BuildFrom[C1, (El1, El2, El3, El4), C]) => C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(El1, El2, El3, El4) => scala.collection.Iterable[B]"
+      ],
+      "type_parameters": [
+        "B",
+        "C"
+      ],
+      "return_type": "(scala.collection.BuildFrom[C1, B, C]) => C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "forall",
+      "parameters": [
+        "(El1, El2, El3, El4) => scala.Boolean"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "foreach",
+      "parameters": [
+        "(El1, El2, El3, El4) => U"
+      ],
+      "type_parameters": [
+        "U"
+      ],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(El1, El2, El3, El4) => B"
+      ],
+      "type_parameters": [
+        "B",
+        "C"
+      ],
+      "return_type": "(scala.collection.BuildFrom[C1, B, C]) => C",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "java.lang.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "lazyZip4ToIterable",
+      "parameters": [
+        "scala.collection.LazyZip4[El1, El2, El3, El4, _]"
+      ],
+      "type_parameters": [
+        "El1",
+        "El2",
+        "El3",
+        "El4"
+      ],
+      "return_type": "scala.collection.View[(El1, El2, El3, El4)]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

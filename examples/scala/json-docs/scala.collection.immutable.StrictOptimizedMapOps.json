@@ -1,0 +1,85 @@
+{
+  "name": "scala.collection.immutable.StrictOptimizedMapOps",
+  "type_parameters": [
+    "K",
+    "+V",
+    "+CC[X, +Y] <: scala.collection.immutable.MapOps[X, Y, CC, _]",
+    "+C <: scala.collection.immutable.MapOps[K, V, CC, C]"
+  ],
+  "implements": [
+    "scala.collection.immutable.MapOps[K, V, CC, C]",
+    "scala.collection.StrictOptimizedMapOps[K, V, CC, C]",
+    "scala.collection.StrictOptimizedIterableOps[(K, V), scala.collection.immutable.Iterable, C]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.MapOps[K, V, CC, C]",
+    "scala.collection.StrictOptimizedMapOps[K, V, CC, C]",
+    "scala.collection.StrictOptimizedIterableOps[(K, V), scala.collection.immutable.Iterable, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[(K, V), (K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V1)]"
+      ],
+      "type_parameters": [
+        "V1 >: V"
+      ],
+      "return_type": "CC[K, V1]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((K, V)) => scala.collection.IterableOnce[(K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((K, V)) => (K2, V2)"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

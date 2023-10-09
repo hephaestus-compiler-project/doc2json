@@ -1,0 +1,16 @@
+{
+  "name": "scala.collection.StepperShape.Shape",
+  "type_parameters": [],
+  "implements": [
+    "scala.AnyVal"
+  ],
+  "inherits": [
+    "scala.AnyVal"
+  ],
+  "class_type": 0,
+  "methods": [],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

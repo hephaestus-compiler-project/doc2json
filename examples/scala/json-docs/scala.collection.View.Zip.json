@@ -1,0 +1,64 @@
+{
+  "name": "scala.collection.View.Zip",
+  "type_parameters": [
+    "A",
+    "B"
+  ],
+  "implements": [
+    "scala.collection.AbstractView[(A, B)]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractView[(A, B)]"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "Zip",
+      "parameters": [
+        "scala.collection.View.SomeIterableOps[A]",
+        "scala.collection.Iterable[B]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "isEmpty",
+      "type": "scala.Boolean",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.Iterator[(A, B)]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "knownSize",
+      "type": "scala.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

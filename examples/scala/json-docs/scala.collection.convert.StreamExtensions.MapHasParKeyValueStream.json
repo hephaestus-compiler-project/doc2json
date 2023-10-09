@@ -1,0 +1,84 @@
+{
+  "name": "scala.collection.convert.StreamExtensions.MapHasParKeyValueStream",
+  "type_parameters": [
+    "K",
+    "V",
+    "CC[X, Y] <: scala.collection.MapOps[X, Y, scala.collection.Map, _]"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "asJavaParKeyStream",
+      "parameters": [
+        "scala.collection.convert.StreamExtensions.StreamShape[K, S, St]",
+        "scala.collection.StepperShape[K, St]",
+        "scala.<:<[CC[K, V], scala.collection.convert.StreamExtensions.MapHasParKeyValueStream.MapOpsWithEfficientKeyStepper]"
+      ],
+      "type_parameters": [
+        "S <: java.util.stream.BaseStream[_, _]",
+        "St <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asJavaParStream",
+      "parameters": [
+        "scala.collection.convert.StreamExtensions.StreamShape[(K, V), S, St]",
+        "scala.collection.StepperShape[(K, V), St]",
+        "scala.<:<[CC[K, V], scala.collection.convert.StreamExtensions.MapHasParKeyValueStream.MapOpsWithEfficientStepper]"
+      ],
+      "type_parameters": [
+        "S <: java.util.stream.BaseStream[_, _]",
+        "St <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "asJavaParValueStream",
+      "parameters": [
+        "scala.collection.convert.StreamExtensions.StreamShape[V, S, St]",
+        "scala.collection.StepperShape[V, St]",
+        "scala.<:<[CC[K, V], scala.collection.convert.StreamExtensions.MapHasParKeyValueStream.MapOpsWithEfficientValueStepper]"
+      ],
+      "type_parameters": [
+        "S <: java.util.stream.BaseStream[_, _]",
+        "St <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "MapHasParKeyValueStream",
+      "parameters": [
+        "CC[K, V]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

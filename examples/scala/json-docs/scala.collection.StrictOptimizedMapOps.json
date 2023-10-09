@@ -1,0 +1,83 @@
+{
+  "name": "scala.collection.StrictOptimizedMapOps",
+  "type_parameters": [
+    "K",
+    "+V",
+    "+CC[_, _] <: scala.collection.IterableOps[_, scala.collection.AnyConstr, _]",
+    "+C"
+  ],
+  "implements": [
+    "scala.collection.MapOps[K, V, CC, C]",
+    "scala.collection.StrictOptimizedIterableOps[(K, V), scala.collection.Iterable, C]"
+  ],
+  "inherits": [
+    "scala.collection.MapOps[K, V, CC, C]",
+    "scala.collection.StrictOptimizedIterableOps[(K, V), scala.collection.Iterable, C]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[(K, V), (K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "concat",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V2)]"
+      ],
+      "type_parameters": [
+        "V2 >: V"
+      ],
+      "return_type": "CC[K, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "((K, V)) => scala.collection.IterableOnce[(K2, V2)]"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "((K, V)) => (K2, V2)"
+      ],
+      "type_parameters": [
+        "K2",
+        "V2"
+      ],
+      "return_type": "CC[K2, V2]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

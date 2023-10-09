@@ -1,0 +1,27 @@
+{
+  "name": "scala.collection.IntStepper",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.Stepper[scala.Int]"
+  ],
+  "inherits": [
+    "scala.collection.Stepper[scala.Int]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "trySplit",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.collection.IntStepper",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

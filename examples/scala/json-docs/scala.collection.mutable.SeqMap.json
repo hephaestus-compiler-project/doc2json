@@ -1,0 +1,46 @@
+{
+  "name": "scala.collection.mutable.SeqMap",
+  "type_parameters": [
+    "K",
+    "V"
+  ],
+  "implements": [
+    "scala.collection.mutable.Map[K, V]",
+    "scala.collection.SeqMap[K, V]",
+    "scala.collection.mutable.MapOps[K, V, scala.collection.mutable.SeqMap, scala.collection.mutable.SeqMap[K, V]]",
+    "scala.collection.MapFactoryDefaults[K, V, scala.collection.mutable.SeqMap, scala.collection.mutable.Iterable]"
+  ],
+  "inherits": [
+    "scala.collection.mutable.Map[K, V]",
+    "scala.collection.SeqMap[K, V]",
+    "scala.collection.mutable.MapOps[K, V, scala.collection.mutable.SeqMap, scala.collection.mutable.SeqMap[K, V]]",
+    "scala.collection.MapFactoryDefaults[K, V, scala.collection.mutable.SeqMap, scala.collection.mutable.Iterable]"
+  ],
+  "class_type": 1,
+  "methods": [],
+  "fields": [
+    {
+      "name": "mapFactory",
+      "type": "scala.collection.MapFactory[scala.collection.mutable.SeqMap]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "scala.collection.immutable.SeqMap",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.immutable.Map[K, V]",
+    "scala.collection.SeqMap[K, V]",
+    "scala.collection.immutable.MapOps[K, V, scala.collection.immutable.SeqMap, scala.collection.immutable.SeqMap[K, V]]",
+    "scala.collection.MapFactoryDefaults[K, V, scala.collection.immutable.SeqMap, scala.collection.immutable.Iterable]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.Map[K, V]",
+    "scala.collection.SeqMap[K, V]",
+    "scala.collection.immutable.MapOps[K, V, scala.collection.immutable.SeqMap, scala.collection.immutable.SeqMap[K, V]]",
+    "scala.collection.MapFactoryDefaults[K, V, scala.collection.immutable.SeqMap, scala.collection.immutable.Iterable]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[(K, V)]"
+      ],
+      "type_parameters": [
+        "K",
+        "V"
+      ],
+      "return_type": "scala.collection.immutable.SeqMap[K, V]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "mapFactory",
+      "type": "scala.collection.MapFactory[scala.collection.immutable.SeqMap]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

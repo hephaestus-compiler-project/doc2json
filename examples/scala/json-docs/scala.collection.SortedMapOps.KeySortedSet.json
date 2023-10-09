@@ -1,0 +1,56 @@
+{
+  "name": "scala.collection.SortedMapOps.KeySortedSet",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.SortedSet[scala.collection.SortedMapOps.K]",
+    "scala.collection.MapOps.GenKeySet",
+    "scala.collection.SortedMapOps.GenKeySortedSet"
+  ],
+  "inherits": [
+    "scala.collection.SortedSet[scala.collection.SortedMapOps.K]",
+    "scala.collection.MapOps.GenKeySet",
+    "scala.collection.SortedMapOps.GenKeySortedSet"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "diff",
+      "parameters": [
+        "scala.collection.Set[scala.collection.SortedMapOps.K]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.SortedSet[scala.collection.SortedMapOps.K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "rangeImpl",
+      "parameters": [
+        "scala.Option[scala.collection.SortedMapOps.K]",
+        "scala.Option[scala.collection.SortedMapOps.K]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.SortedSet[scala.collection.SortedMapOps.K]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "KeySortedSet",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "protected",
+  "language": "scala"
+}

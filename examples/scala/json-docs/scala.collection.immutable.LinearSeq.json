@@ -1,0 +1,60 @@
+{
+  "name": "scala.collection.immutable.LinearSeq",
+  "type_parameters": [
+    "+A"
+  ],
+  "implements": [
+    "scala.collection.immutable.Seq[A]",
+    "scala.collection.LinearSeq[A]",
+    "scala.collection.immutable.LinearSeqOps[A, scala.collection.immutable.LinearSeq, scala.collection.immutable.LinearSeq[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.immutable.LinearSeq]"
+  ],
+  "inherits": [
+    "scala.collection.immutable.Seq[A]",
+    "scala.collection.LinearSeq[A]",
+    "scala.collection.immutable.LinearSeqOps[A, scala.collection.immutable.LinearSeq, scala.collection.immutable.LinearSeq[A]]",
+    "scala.collection.IterableFactoryDefaults[A, scala.collection.immutable.LinearSeq]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "from",
+      "parameters": [
+        "scala.collection.IterableOnce[E]"
+      ],
+      "type_parameters": [
+        "E"
+      ],
+      "return_type": "scala.collection.immutable.LinearSeq[E]",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.SeqFactory[scala.collection.immutable.LinearSeq]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

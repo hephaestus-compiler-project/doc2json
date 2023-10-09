@@ -1,0 +1,66 @@
+{
+  "name": "scala.collection.SortedSet",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.collection.Set[A]",
+    "scala.collection.SortedSetOps[A, scala.collection.SortedSet, scala.collection.SortedSet[A]]",
+    "scala.collection.SortedSetFactoryDefaults[A, scala.collection.SortedSet, scala.collection.Set]"
+  ],
+  "inherits": [
+    "scala.collection.Set[A]",
+    "scala.collection.SortedSetOps[A, scala.collection.SortedSet, scala.collection.SortedSet[A]]",
+    "scala.collection.SortedSetFactoryDefaults[A, scala.collection.SortedSet, scala.collection.Set]"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "equals",
+      "parameters": [
+        "scala.Any"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Boolean",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "sortedIterableFactory",
+      "type": "scala.collection.SortedIterableFactory[scala.collection.SortedSet]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "unsorted",
+      "type": "scala.collection.Set[A]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

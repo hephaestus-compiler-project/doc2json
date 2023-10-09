@@ -1,0 +1,38 @@
+{
+  "name": "scala.collection.mutable.LinkedHashMap.LinkedKeySet",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.MapOps.KeySet"
+  ],
+  "inherits": [
+    "scala.collection.MapOps.KeySet"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "LinkedKeySet",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "iterableFactory",
+      "type": "scala.collection.IterableFactory[scala.collection.Set]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "protected",
+  "language": "scala"
+}

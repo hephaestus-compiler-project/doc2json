@@ -1,0 +1,265 @@
+{
+  "name": "scala.collection.immutable.BitSet",
+  "type_parameters": [],
+  "implements": [
+    "scala.collection.immutable.AbstractSet[scala.Int]",
+    "scala.collection.immutable.SortedSet[scala.Int]",
+    "scala.collection.immutable.SortedSetOps[scala.Int, scala.collection.immutable.SortedSet, scala.collection.immutable.BitSet]",
+    "scala.collection.immutable.StrictOptimizedSortedSetOps[scala.Int, scala.collection.immutable.SortedSet, scala.collection.immutable.BitSet]",
+    "scala.collection.BitSet",
+    "scala.collection.BitSetOps[scala.collection.immutable.BitSet]",
+    "scala.Serializable"
+  ],
+  "inherits": [
+    "scala.collection.immutable.AbstractSet[scala.Int]",
+    "scala.collection.immutable.SortedSet[scala.Int]",
+    "scala.collection.immutable.SortedSetOps[scala.Int, scala.collection.immutable.SortedSet, scala.collection.immutable.BitSet]",
+    "scala.collection.immutable.StrictOptimizedSortedSetOps[scala.Int, scala.collection.immutable.SortedSet, scala.collection.immutable.BitSet]",
+    "scala.collection.BitSet",
+    "scala.collection.BitSetOps[scala.collection.immutable.BitSet]",
+    "scala.Serializable"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "updateWord",
+      "parameters": [
+        "scala.Int",
+        "scala.Long"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[scala.Int, B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => scala.collection.immutable.SortedSet[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "collect",
+      "parameters": [
+        "scala.PartialFunction[scala.Int, scala.Int]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "excl",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(scala.Int) => scala.collection.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => scala.collection.immutable.SortedSet[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "flatMap",
+      "parameters": [
+        "(scala.Int) => scala.collection.IterableOnce[scala.Int]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "incl",
+      "parameters": [
+        "scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(scala.Int) => B"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[B]) => scala.collection.immutable.SortedSet[B]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "map",
+      "parameters": [
+        "(scala.Int) => scala.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "writeReplace",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.AnyRef",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "zip",
+      "parameters": [
+        "scala.IterableOnce[B]"
+      ],
+      "type_parameters": [
+        "B"
+      ],
+      "return_type": "(scala.Ordering[(scala.Int, B)]) => scala.collection.immutable.SortedSet[(scala.Int, B)]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromBitMask",
+      "parameters": [
+        "scala.Array[scala.Long]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromBitMaskNoCopy",
+      "parameters": [
+        "scala.Array[scala.Long]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "fromSpecific",
+      "parameters": [
+        "scala.collection.IterableOnce[scala.Int]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.BitSet",
+      "receiver": null,
+      "is_static": true,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "bitSetFactory",
+      "type": "scala.collection.immutable.BitSet",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "newSpecificBuilder",
+      "type": "scala.collection.mutable.Builder[scala.Int, scala.collection.immutable.BitSet]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "stringPrefix",
+      "type": "java.lang.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    },
+    {
+      "name": "unsorted",
+      "type": "scala.collection.immutable.Set[scala.Int]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "empty",
+      "type": "scala.collection.immutable.BitSet",
+      "is_final": true,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    },
+    {
+      "name": "newBuilder",
+      "type": "scala.collection.mutable.Builder[scala.Int, scala.collection.immutable.BitSet]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": true
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

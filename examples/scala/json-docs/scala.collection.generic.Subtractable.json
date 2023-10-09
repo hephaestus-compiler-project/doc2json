@@ -1,0 +1,69 @@
+{
+  "name": "scala.collection.generic.Subtractable",
+  "type_parameters": [
+    "A",
+    "+Repr <: scala.collection.generic.Subtractable[A, scala.collection.generic.Subtractable.Repr]"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 1,
+  "methods": [
+    {
+      "name": "-",
+      "parameters": [
+        "A"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.generic.Subtractable.Repr",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "-",
+      "parameters": [
+        "A",
+        "A",
+        "A*"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.generic.Subtractable.Repr",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "--",
+      "parameters": [
+        "scala.collection.IterableOnce[A]"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.generic.Subtractable.Repr",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "repr",
+      "type": "scala.collection.generic.Subtractable.Repr",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "protected",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

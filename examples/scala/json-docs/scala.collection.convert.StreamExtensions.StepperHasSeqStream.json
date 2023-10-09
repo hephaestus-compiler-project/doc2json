@@ -1,0 +1,47 @@
+{
+  "name": "scala.collection.convert.StreamExtensions.StepperHasSeqStream",
+  "type_parameters": [
+    "A"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 0,
+  "methods": [
+    {
+      "name": "asJavaSeqStream",
+      "parameters": [
+        "scala.collection.convert.StreamExtensions.StreamShape[A, S, St]",
+        "scala.collection.StepperShape[A, St]"
+      ],
+      "type_parameters": [
+        "S <: java.util.stream.BaseStream[_, _]",
+        "St <: scala.collection.Stepper[_]"
+      ],
+      "return_type": "S",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "StepperHasSeqStream",
+      "parameters": [
+        "scala.collection.Stepper[A]"
+      ],
+      "type_parameters": [],
+      "return_type": null,
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": true,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

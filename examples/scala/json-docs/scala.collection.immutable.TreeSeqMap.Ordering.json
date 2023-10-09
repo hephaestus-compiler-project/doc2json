@@ -1,0 +1,222 @@
+{
+  "name": "scala.collection.immutable.TreeSeqMap.Ordering",
+  "type_parameters": [
+    "+T"
+  ],
+  "implements": [
+    "scala.AnyRef"
+  ],
+  "inherits": [
+    "scala.AnyRef"
+  ],
+  "class_type": 2,
+  "methods": [
+    {
+      "name": "format",
+      "parameters": [
+        "scala.StringBuilder",
+        "scala.Predef.String",
+        "scala.Predef.String"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.Unit",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "protected"
+    },
+    {
+      "name": "append",
+      "parameters": [
+        "scala.collection.generic.BitOperations.Int.Int",
+        "S"
+      ],
+      "type_parameters": [
+        "S >: T"
+      ],
+      "return_type": "scala.collection.immutable.TreeSeqMap.Ordering[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "exclude",
+      "parameters": [
+        "scala.collection.generic.BitOperations.Int.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "scala.collection.immutable.TreeSeqMap.Ordering[T]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "include",
+      "parameters": [
+        "scala.collection.generic.BitOperations.Int.Int",
+        "S"
+      ],
+      "type_parameters": [
+        "S >: T"
+      ],
+      "return_type": "scala.collection.immutable.TreeSeqMap.Ordering[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "modifyOrRemove",
+      "parameters": [
+        "(scala.collection.generic.BitOperations.Int.Int, T) => scala.Option[S]"
+      ],
+      "type_parameters": [
+        "S"
+      ],
+      "return_type": "scala.collection.immutable.TreeSeqMap.Ordering[S]",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "splitAt",
+      "parameters": [
+        "scala.collection.generic.BitOperations.Int.Int"
+      ],
+      "type_parameters": [],
+      "return_type": "(scala.collection.immutable.TreeSeqMap.Ordering[T], scala.collection.immutable.TreeSeqMap.Ordering[T])",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    },
+    {
+      "name": "toString",
+      "parameters": [],
+      "type_parameters": [],
+      "return_type": "scala.Predef.String",
+      "receiver": null,
+      "is_static": false,
+      "is_constructor": false,
+      "access_mod": "public"
+    }
+  ],
+  "fields": [
+    {
+      "name": "format",
+      "type": "scala.Predef.String",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "head",
+      "type": "T",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "headOption",
+      "type": "scala.Option[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "headTail",
+      "type": "(T, scala.collection.immutable.TreeSeqMap.Ordering[T])",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "init",
+      "type": "scala.collection.immutable.TreeSeqMap.Ordering[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "initLast",
+      "type": "(scala.collection.immutable.TreeSeqMap.Ordering[T], T)",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "iterator",
+      "type": "scala.collection.immutable.TreeSeqMap.Ordering.Iterator[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "last",
+      "type": "T",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "lastOption",
+      "type": "scala.Option[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "ordinal",
+      "type": "scala.collection.generic.BitOperations.Int.Int",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    },
+    {
+      "name": "tail",
+      "type": "scala.collection.immutable.TreeSeqMap.Ordering[T]",
+      "is_final": false,
+      "is_override": false,
+      "receiver": null,
+      "type_parameters": [],
+      "access_mod": "public",
+      "is_static": false
+    }
+  ],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}

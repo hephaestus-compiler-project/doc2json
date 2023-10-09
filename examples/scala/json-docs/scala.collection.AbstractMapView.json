@@ -1,0 +1,21 @@
+{
+  "name": "scala.collection.AbstractMapView",
+  "type_parameters": [
+    "K",
+    "+V"
+  ],
+  "implements": [
+    "scala.collection.AbstractView[(K, V)]",
+    "scala.collection.MapView[K, V]"
+  ],
+  "inherits": [
+    "scala.collection.AbstractView[(K, V)]",
+    "scala.collection.MapView[K, V]"
+  ],
+  "class_type": 2,
+  "methods": [],
+  "fields": [],
+  "is_class": true,
+  "access_mod": "public",
+  "language": "scala"
+}
