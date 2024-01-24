@@ -318,12 +318,30 @@ class KotlinAPIDocConverter(APIDocConverter):
             # We are probably in a field
             return None
 
+    def is_method_override(self, method_doc):
+        keywords = [
+            e.text.strip(" ")
+            for e in method_doc.find_all("span", {"class": "token keyword"})
+        ]
+        return "override" in keywords
+
+    def is_method_open(self, method_doc):
+        keywords = [
+            e.text.strip(" ")
+            for e in method_doc.find_all("span", {"class": "token keyword"})
+        ]
+        return "open" in keywords
+
     def extract_method_metadata(self, method_doc):
         is_suspend = "suspend fun" in method_doc.text
         is_inline = method_doc.text.startswith("inline")
+        is_override = self.is_method_override(method_doc)
+        is_open = self.is_method_open(method_doc)
         return {
             "is_suspend": is_suspend,
             "is_inline": is_inline,
+            "is_override": is_override,
+            "is_open": is_open,
         }
 
     def extract_field_name(self, field_doc):
