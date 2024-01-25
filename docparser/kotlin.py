@@ -204,9 +204,9 @@ class KotlinAPIDocConverter(APIDocConverter):
             return self.INTERFACE
         if 'abstract class' in text:
             return self.ABSTRACT_CLASS
-        if 'enum' in text:
-            return self.INTERFACE
-        return self.REGULAR_CLASS
+        if 'class' in text:
+            return self.REGULAR_CLASS
+        return None
 
     def extract_super_interfaces(self, html_doc):
         return self._get_super_classes_interfaces(html_doc)
@@ -235,6 +235,9 @@ class KotlinAPIDocConverter(APIDocConverter):
         super_class = self.extract_super_class(html_doc)
         super_interfaces = self.extract_super_interfaces(html_doc)
         class_type = self.extract_class_type(html_doc)
+        if class_type is None:
+            # This is probably an enum. Currently unsupported
+            return None
         methods = html_doc.select(
             "div[data-togglable=\"Functions\"] .title .symbol")
         constructors = html_doc.select(
