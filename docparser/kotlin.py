@@ -58,6 +58,18 @@ def find_str_inside_arrows(text):
     return str_
 
 
+def get_keywords(doc):
+    elems = [
+        e.text.strip(" ")
+        for e in doc.find_all("span", {"class": "token keyword"})
+    ]
+    keywords = []
+    for elem in elems:
+        segs = elem.split(" ")
+        keywords.extend(segs)
+    return keywords
+
+
 class KotlinAPIDocConverter(APIDocConverter):
     EXCLUDED_METHOD_NAME = "<no name provided>"
     PROTECTED = "protected"
@@ -325,32 +337,19 @@ class KotlinAPIDocConverter(APIDocConverter):
             return None
 
     def is_method_operator(self, method_doc):
-        keywords = [
-            e.text.strip(" ")
-            for e in method_doc.find_all("span", {"class": "token keyword"})
-        ]
-        return "operator" in keywords
+        return "operator" in get_keywords(method_doc)
 
     def is_method_override(self, method_doc):
-        keywords = [
-            e.text.strip(" ")
-            for e in method_doc.find_all("span", {"class": "token keyword"})
-        ]
-        return "override" in keywords
+        return "override" in get_keywords(method_doc)
 
     def is_method_open(self, method_doc):
-        keywords = [
-            e.text.strip(" ")
-            for e in method_doc.find_all("span", {"class": "token keyword"})
-        ]
-        return "open" in keywords
+        return "open" in get_keywords(method_doc)
 
     def is_method_abstract(self, method_doc):
-        keywords = [
-            e.text.strip(" ")
-            for e in method_doc.find_all("span", {"class": "token keyword"})
-        ]
-        return "abstract" in keywords
+        return "abstract" in get_keywords(method_doc)
+
+    def is_method_actual(self, method_doc):
+        return "actual" in get_keywords(method_doc)
 
     def extract_method_metadata(self, method_doc):
         is_suspend = "suspend fun" in method_doc.text
@@ -359,12 +358,25 @@ class KotlinAPIDocConverter(APIDocConverter):
         is_open = self.is_method_open(method_doc)
         is_operator = self.is_method_operator(method_doc)
         is_abstract = self.is_method_abstract(method_doc)
+        is_actual = self.is_method_actual(method_doc)
         return {
             "suspend": is_suspend,
             "inline": is_inline,
             "override": is_override,
             "final": not is_open,
             "operator": is_operator,
+            "abstract": is_abstract,
+            "actual": is_actual,
+        }
+
+    def extract_field_metadata(self, field_doc):
+        is_override = self.is_method_override(field_doc)
+        is_open = self.is_method_open(field_doc)
+        is_abstract = self.is_method_abstract(field_doc)
+        return {
+            "override": is_override,
+            "final": "val " in field_doc.text,
+            "open": is_open,
             "abstract": is_abstract,
         }
 
@@ -380,18 +392,10 @@ class KotlinAPIDocConverter(APIDocConverter):
         return field_doc.text.split(": ")[1]
 
     def is_field_final(self, field_doc):
-        keywords = [
-            e.text.strip(" ")
-            for e in field_doc.find_all("span", {"class": "token keyword"})
-        ]
-        return "val" in keywords
+        return "val" in get_keywords(field_doc)
 
     def is_field_override(self, field_doc):
-        keywords = [
-            e.text.strip(" ")
-            for e in field_doc.find_all("span", {"class": "token keyword"})
-        ]
-        return "override" in keywords
+        return "override" in get_keywords(field_doc)
 
     @map_type
     def extract_field_type_parameters(self, field_doc):
@@ -425,12 +429,13 @@ class KotlinAPIDocConverter(APIDocConverter):
                 "name": field_name,
                 "type": self.extract_field_type(field_doc),
                 "is_final": self.is_field_final(field_doc),
-                "is_override": self.is_field_override(field_doc),
+                "override": self.is_field_override(field_doc),
                 "receiver": self.extract_field_receiver(field_doc),
                 "type_parameters": self.extract_field_type_parameters(
                     field_doc),
                 "access_mod": self.extract_field_access_mod(field_doc),
-                "is_static": False
+                "is_static": False,
+                "other_metadata": self.extract_field_metadata(field_doc),
             }
             field_objs.append(field_obj)
         return field_objs
