@@ -66,6 +66,7 @@ class KotlinAPIDocConverter(APIDocConverter):
     def __init__(self, args):
         super().__init__()
         self.class_name = None
+        self.class_doc = None
 
     def process(self, args):
         toplevel_path = Path(args.input).joinpath("index.html")
@@ -84,6 +85,7 @@ class KotlinAPIDocConverter(APIDocConverter):
 
     def process_toplevel(self, html_doc):
         self.class_name = None
+        self.class_doc = None
         package_name = self.extract_package_name(html_doc, True)
         methods = html_doc.select(
             "div[data-togglable=\"Functions\"] .title .symbol")
@@ -228,6 +230,7 @@ class KotlinAPIDocConverter(APIDocConverter):
             return None
         class_name = self.extract_class_name(html_doc)
         self.class_name = class_name
+        self.class_doc = html_doc
         package_name = self.extract_package_name(html_doc)
         full_class_name = "{pkg}.{cls}".format(pkg=package_name,
                                                cls=class_name)
@@ -342,18 +345,27 @@ class KotlinAPIDocConverter(APIDocConverter):
         ]
         return "open" in keywords
 
+    def is_method_abstract(self, method_doc):
+        keywords = [
+            e.text.strip(" ")
+            for e in method_doc.find_all("span", {"class": "token keyword"})
+        ]
+        return "abstract" in keywords
+
     def extract_method_metadata(self, method_doc):
         is_suspend = "suspend fun" in method_doc.text
         is_inline = method_doc.text.startswith("inline")
         is_override = self.is_method_override(method_doc)
         is_open = self.is_method_open(method_doc)
         is_operator = self.is_method_operator(method_doc)
+        is_abstract = self.is_method_abstract(method_doc)
         return {
-            "is_suspend": is_suspend,
-            "is_inline": is_inline,
-            "is_override": is_override,
-            "is_final": not is_open,
-            "is_operator": is_operator,
+            "suspend": is_suspend,
+            "inline": is_inline,
+            "override": is_override,
+            "final": not is_open,
+            "operator": is_operator,
+            "abstract": is_abstract,
         }
 
     def extract_field_name(self, field_doc):
@@ -423,6 +435,15 @@ class KotlinAPIDocConverter(APIDocConverter):
             field_objs.append(field_obj)
         return field_objs
 
+    def is_primary_constructor(self, method_doc):
+        primary_con_elem = self.class_doc.select(
+            ".cover .platform-hinted .symbol .parameters")
+        if not primary_con_elem:
+            return False
+        primary_con_sig = primary_con_elem[0].text
+        curr_con_sig = method_doc.find(class_="parameters")
+        return curr_con_sig and primary_con_sig == curr_con_sig.text
+
     def process_methods(self, methods, is_constructor):
         method_objs = []
         for method_doc in methods:
@@ -451,5 +472,9 @@ class KotlinAPIDocConverter(APIDocConverter):
                 "access_mod": access_mod,
                 "other_metadata": self.extract_method_metadata(method_doc),
             }
+            if is_constructor:
+                is_primary_constructor = self.is_primary_constructor(
+                    method_doc)
+                method_obj["is_primary_constructor"] = is_primary_constructor
             method_objs.append(method_obj)
         return method_objs
