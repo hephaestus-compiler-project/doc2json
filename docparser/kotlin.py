@@ -475,6 +475,6 @@ class KotlinAPIDocConverter(APIDocConverter):
             if is_constructor:
                 is_primary_constructor = self.is_primary_constructor(
                     method_doc)
-                method_obj["is_primary_constructor"] = is_primary_constructor
+                method_obj["other_metadata"]["primary"] = is_primary_constructor
             method_objs.append(method_obj)
         return method_objs
