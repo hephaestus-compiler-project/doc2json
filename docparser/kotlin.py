@@ -352,7 +352,7 @@ class KotlinAPIDocConverter(APIDocConverter):
             "is_suspend": is_suspend,
             "is_inline": is_inline,
             "is_override": is_override,
-            "is_open": is_open,
+            "is_final": not is_open,
             "is_operator": is_operator,
         }
 
