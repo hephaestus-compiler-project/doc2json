@@ -114,6 +114,8 @@ class JavaAPIDocConverter(APIDocConverter):
             return self.INTERFACE
         if 'abstract class' in text:
             return self.ABSTRACT_CLASS
+        if 'abstract static class' in text:
+            return self.ABSTRACT_CLASS
         if 'enum' in text:
             return self.ENUM
         return self.REGULAR_CLASS
